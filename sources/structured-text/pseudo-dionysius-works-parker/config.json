@@ -1,0 +1,16 @@
+{
+  "resource_id": "pseudo-dionysius-works-parker",
+  "title": "The Works of Dionysius the Areopagite, Volumes I–II",
+  "author": "Pseudo-Dionysius the Areopagite",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://www.ccel.org/ccel/dionysius/works.xml",
+  "source_format": "ThML XML",
+  "source_edition": "John Parker, trans., The Works of Dionysius the Areopagite, Vol. I (1897) and Vol. II (1899)",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:b28456f33db6ca2ffb42efa20200e5b98c4b6ec8b9134a87119c6de051b903d2",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/ccel_dionysius_works.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Both Parker volumes retained; generated indexes excluded."
+}

@@ -7,16 +7,26 @@
     "author_death_year": 1893,
     "contributors": [
       {
-        "name": "Christian Classics Ethereal Library (digital edition)"
+        "name": "David S. Schaff",
+        "role": "reviser"
+      },
+      {
+        "name": "Christian Classics Ethereal Library",
+        "role": "transcriber"
+      },
+      {
+        "name": "Charles Bowen",
+        "role": "editor"
       }
     ],
     "original_publication_year": 1877,
+    "edition": "Sixth edition, revised and enlarged (1931)",
     "language": "en",
     "original_language": "en",
     "tradition": [
       "ecumenical"
     ],
-    "tradition_notes": "Schaff was a Swiss-American Reformed theologian and church historian. Volume I surveys the creeds and confessions of all major Christian traditions -- Greek, Roman, Lutheran, Reformed, and modern evangelical -- and is the standard 19th-century English reference on the subject.",
+    "tradition_notes": "Schaff was a Swiss-American Reformed theologian and church historian. This volume surveys the creeds and confessions of all major Christian traditions -- Greek, Roman, Lutheran, Reformed, and modern evangelical.",
     "era": "modern",
     "audience": "scholarly",
     "license": "public-domain",
@@ -26,13 +36,13 @@
     "provenance": {
       "source_url": "https://www.ccel.org/ccel/schaff/creeds1.xml",
       "source_format": "ThML XML",
-      "source_edition": "Christian Classics Ethereal Library (CCEL) ThML edition. Original edition: Philip Schaff, The Creeds of Christendom, Vol. I, New York: Harper & Brothers, 1877 (rev. David S. Schaff).",
-      "download_date": "2026-06-02",
+      "source_edition": "Philip Schaff, The Creeds of Christendom, with a History and Critical Notes, sixth edition, revised and enlarged by David S. Schaff (1931), Vol. I; original three-volume edition published in 1877; Christian Classics Ethereal Library (CCEL) ThML transcription",
+      "download_date": "2026-09-17",
       "source_hash": "sha256:450960af42f600534f15429546e0a00696a9fbfc4ea32df55545ef5a02c491e7",
       "processing_method": "automated",
-      "processing_script_version": "build/parsers/ccel_creeds_of_christendom.py@v1.0.0",
-      "processing_date": "2026-06-17",
-      "notes": "ThML HTML entities replaced with Unicode equivalents; DOCTYPE stripped before parsing. Footnotes (<note>) and page breaks (<pb>) excluded from content. Front/back matter (Title Page, Prefatory, Indexes) excluded; only the eight history chapters (div1) are ingested, recursed div1>div2>div3."
+      "processing_script_version": "build/parsers/ccel_creeds_of_christendom.py@v2.0.0",
+      "processing_date": "2026-09-17",
+      "notes": "ThML HTML entities replaced with Unicode equivalents; DOCTYPE stripped before parsing. Footnotes (<note>) and page breaks (<pb>) excluded from content. Eight top-level history chapters are ingested. Title Page, all Prefatory matter, the table of contents, and indexes are excluded. Divisions are recursed through nested divs. The potentially non-public-domain 1931 Preface to the Sixth Edition is excluded from searchable content. The retained edition text carries copyright notices for 1877, 1905, and 1919, publications now in the public domain in the United States; downstream users outside the United States must check local law."
     }
   },
   "data": {

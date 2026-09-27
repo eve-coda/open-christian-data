@@ -1,0 +1,29 @@
+{
+  "resource_id": "cloud-of-unknowing",
+  "title": "The Cloud of Unknowing",
+  "author": "Anonymous",
+  "contributors": [
+    {
+      "name": "Evelyn Underhill",
+      "role": "editor"
+    }
+  ],
+  "original_publication_year": 1375,
+  "language": "en",
+  "original_language": "enm",
+  "tradition": [
+    "monastic"
+  ],
+  "raw_filename": "cloud-unknowing.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://archive.org/details/bookofcontemplat00unde",
+  "source_format": "machine OCR text",
+  "source_edition": "Public-domain English edition digitized by Internet Archive",
+  "download_date": "2026-09-17",
+  "processing_method": "ocr",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Source-complete scan coverage; 'full' does not assert textual accuracy. This is uncorrected machine OCR with residual recognition errors, running headers, pagination, and front/back matter. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. Consult the linked scan for textual verification.",
+  "source_hash": "sha256:f993c99ed291bd49eb57ae62631701c00460a5e62a17abf7e4593de564e20275"
+}

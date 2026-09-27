@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "writer": "parser",
+  "writer_version": "build/parsers/project_wittenberg_boc.py@v1.0.1",
+  "writer_identity": "project_wittenberg_boc_parser",
+  "run_id": "b6572b8c7332439e85df8cb81c9a844f",
+  "started_at": "2026-09-27T21:38:31.716108+00:00",
+  "data_paths": [
+    "data/structured-text/apology-augsburg-confession.json",
+    "data/structured-text/power-primacy-pope.json",
+    "data/structured-text/smalcald-articles.json"
+  ],
+  "checksums": {
+    "data/structured-text/apology-augsburg-confession.json": {
+      "before_sha256": null,
+      "after_sha256": "568dace3ff1e79f4fe415f9af900e299658f797d05f1b93488eb39f96e718581"
+    },
+    "data/structured-text/power-primacy-pope.json": {
+      "before_sha256": null,
+      "after_sha256": "0cd952b6d9774d1852fcb3044eab51891bde77660bb82e96b42d4c1dd9c8bce6"
+    },
+    "data/structured-text/smalcald-articles.json": {
+      "before_sha256": null,
+      "after_sha256": "5e33a196180ff9c47fc6fd096d7c98ae4953e90194fdaace012aad06a580f86d"
+    }
+  },
+  "expected_delta_counts": {
+    "data/structured-text/apology-augsburg-confession.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/power-primacy-pope.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/smalcald-articles.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    }
+  },
+  "allowed_field_paths": [
+    "/meta",
+    "/data"
+  ],
+  "partial_completion_policy": "all_or_nothing",
+  "renames": []
+}

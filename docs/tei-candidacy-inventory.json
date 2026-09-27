@@ -1,6 +1,6 @@
 {
   "inventory_schema": "tei-candidacy-inventory-v1",
-  "generated_date": "2026-07-16",
+  "generated_date": "2026-09-27",
   "classification_vocabulary": [
     "tei-now",
     "tei-later",
@@ -47,10 +47,12 @@
       ],
       "parsers": [
         "build/parsers/ccel_anf.py",
+        "build/parsers/ccel_arminius_works.py",
         "build/parsers/ccel_boethius_tractates.py",
         "build/parsers/ccel_church_history.py",
         "build/parsers/ccel_creeds_of_christendom.py",
         "build/parsers/ccel_devotional.py",
+        "build/parsers/ccel_dionysius_works.py",
         "build/parsers/ccel_evangelical_holiness.py",
         "build/parsers/ccel_expositors_bible.py",
         "build/parsers/ccel_hodge_systematic.py",
@@ -62,29 +64,45 @@
         "build/parsers/ccel_schaff_hcc.py",
         "build/parsers/ccel_schaff_herzog.py",
         "build/parsers/ccel_sermon.py",
-        "build/parsers/ccel_whitefield_sermon.py"
+        "build/parsers/ccel_whitefield_sermon.py",
+        "build/parsers/schaff_ecumenical_creeds.py"
       ],
       "data_globs": [
         "data/structured-text/*.json",
         "data/commentaries/expositors-bible/*.json",
         "data/commentaries/robertson-word-pictures-vol1/*.json",
         "data/devotionals/spurgeons-morning-evening/*.json",
+        "data/doctrinal-documents/nicene-creed-325.json",
+        "data/doctrinal-documents/nicene-creed-anglican-bcp-1662.json",
+        "data/doctrinal-documents/nicene-creed.json",
         "data/sermons/george-whitefield-sermons.json",
         "data/sermons/john-wesley-sermons.json"
       ],
       "data_exclude_globs": [
         "data/structured-text/bcp-*.json",
+        "data/structured-text/apology-augsburg-confession.json",
+        "data/structured-text/apostolic-tradition-easton-1934.json",
         "data/structured-text/augustines-confessions.json",
+        "data/structured-text/bonaventure-opera-omnia-vol-5.json",
         "data/structured-text/calvins-institutes.json",
         "data/structured-text/carey-enquiry.json",
         "data/structured-text/charnock-existence-attributes-vol-*.json",
+        "data/structured-text/cloud-of-unknowing.json",
         "data/structured-text/donne-devotions-upon-emergent-occasions.json",
         "data/structured-text/drummond-*.json",
+        "data/structured-text/duns-scotus-opera-omnia-vol-8.json",
+        "data/structured-text/julian-revelations-divine-love.json",
         "data/structured-text/luther-bondage-of-the-will.json",
         "data/structured-text/luther-commentary-on-galatians.json",
         "data/structured-text/luthers-large-catechism.json",
         "data/structured-text/murray-humility.json",
         "data/structured-text/newman-apologia-pro-vita-sua.json",
+        "data/structured-text/peter-lombard-sentences-1841-vols-1-2.json",
+        "data/structured-text/peter-lombard-sentences-1841-vols-3-4.json",
+        "data/structured-text/power-primacy-pope.json",
+        "data/structured-text/roman-catechism-1829.json",
+        "data/structured-text/rule-of-benedict-1906.json",
+        "data/structured-text/smalcald-articles.json",
         "data/structured-text/strong-systematic-theology-vol-*.json",
         "data/structured-text/taylor-holy-*.json",
         "data/structured-text/wilberforce-practical-view.json",
@@ -152,6 +170,64 @@
       "priority": 1,
       "owning_batch": "04",
       "notes": "The converter is proven on five selected renderings, not on the 216 dataset source configs referencing ccel.org (full-text count, 2026-07-15). Footnotes, page breaks, emphasis, language spans, tables, and other apparatus justify per-work migration from raw ThML."
+    },
+    {
+      "id": "project-wittenberg-ascii",
+      "label": "Project Wittenberg Concordia Triglotta ASCII",
+      "classification": "tei-later",
+      "parsers": ["build/parsers/project_wittenberg_boc.py"],
+      "data_globs": [
+        "data/structured-text/apology-augsburg-confession.json",
+        "data/structured-text/power-primacy-pope.json",
+        "data/structured-text/smalcald-articles.json"
+      ],
+      "config_rules": [
+        {
+          "path_glob": "sources/structured-text/*/config.json",
+          "field_in": {
+            "processing_script_version": ["build/parsers/project_wittenberg_boc.py@v1.0.0"]
+          }
+        }
+      ],
+      "evidence": [
+        "build/parsers/project_wittenberg_boc.py",
+        "raw/project-wittenberg/boc"
+      ],
+      "priority": 9,
+      "owning_batch": "future",
+      "notes": "The ASCII witness preserves ordered source files and paragraph blocks but not rich inline apparatus. Keep the current JSON while deferring any TEI migration until a source census establishes useful structure."
+    },
+    {
+      "id": "public-domain-expansion-flat-text",
+      "label": "Public-domain expansion plain text and machine OCR",
+      "classification": "tei-later",
+      "parsers": ["build/parsers/public_domain_expansion.py"],
+      "data_globs": [
+        "data/structured-text/apostolic-tradition-easton-1934.json",
+        "data/structured-text/bonaventure-opera-omnia-vol-5.json",
+        "data/structured-text/cloud-of-unknowing.json",
+        "data/structured-text/duns-scotus-opera-omnia-vol-8.json",
+        "data/structured-text/julian-revelations-divine-love.json",
+        "data/structured-text/peter-lombard-sentences-1841-vols-1-2.json",
+        "data/structured-text/peter-lombard-sentences-1841-vols-3-4.json",
+        "data/structured-text/roman-catechism-1829.json",
+        "data/structured-text/rule-of-benedict-1906.json"
+      ],
+      "config_rules": [
+        {
+          "path_glob": "sources/structured-text/*/config.json",
+          "field_in": {
+            "processing_script_version": ["build/parsers/public_domain_expansion.py@v1.0.0"]
+          }
+        }
+      ],
+      "evidence": [
+        "build/parsers/public_domain_expansion.py",
+        "raw/public-domain-expansion"
+      ],
+      "priority": 9,
+      "owning_batch": "future",
+      "notes": "Heterogeneous Project Gutenberg text and uncorrected Internet Archive OCR are currently projected into disclosed approximately 6,000-character search passages. Work-by-work source census and heading recovery should precede TEI migration; no corrected-text quality is claimed."
     },
     {
       "id": "standard-ebooks-xhtml",
@@ -279,6 +355,10 @@
         },
         {
           "path_glob": "sources/**/config.json",
+          "exclude_paths": [
+            "sources/structured-text/apostolic-tradition-easton-1934/config.json",
+            "sources/structured-text/julian-revelations-divine-love/config.json"
+          ],
           "field_contains": {"source_url": ["gutenberg.org"]}
         },
         {
@@ -359,7 +439,14 @@
         {
           "path_glob": "sources/**/config.json",
           "exclude_paths": [
+            "sources/structured-text/bonaventure-opera-omnia-vol-5/config.json",
+            "sources/structured-text/cloud-of-unknowing/config.json",
+            "sources/structured-text/duns-scotus-opera-omnia-vol-8/config.json",
             "sources/structured-text/fisher-marrow-of-modern-divinity/config.json",
+            "sources/structured-text/peter-lombard-sentences-1841-vols-1-2/config.json",
+            "sources/structured-text/peter-lombard-sentences-1841-vols-3-4/config.json",
+            "sources/structured-text/roman-catechism-1829/config.json",
+            "sources/structured-text/rule-of-benedict-1906/config.json",
             "sources/reference/hastings-dictionary-of-the-bible/config.json",
             "sources/reference/schaff-herzog-encyclopedia/config.json"
           ],
@@ -597,6 +684,9 @@
         "data/doctrinal-documents/efca-statement-of-faith-2019.json",
         "data/doctrinal-documents/nae-statement-of-faith-current.json",
         "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json",
+        "data/doctrinal-documents/nicene-creed-325.json",
+        "data/doctrinal-documents/nicene-creed-anglican-bcp-1662.json",
+        "data/doctrinal-documents/nicene-creed.json",
         "data/doctrinal-documents/solemn-league-and-covenant.json",
         "data/doctrinal-documents/sum-of-saving-knowledge.json"
       ],

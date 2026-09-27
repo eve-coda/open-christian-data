@@ -232,6 +232,7 @@ def evaluate_gate(
     loader = load_manifest or (lambda p: _load_manifest(p, repo_root=repo_root))
     custom_loader = load_manifest is not None
     covered: dict[str, list[str]] = {}
+    no_op_coverage: list[str] = []
     failed_identities: list[str] = []
     manifest_errors = False
     try:
@@ -277,7 +278,15 @@ def evaluate_gate(
 
         assert isinstance(body, dict)  # The schema's root type is object.
         for dp in body["data_paths"]:
-            covered.setdefault(dp.replace("\\", "/"), []).append(mp)
+            normalized = dp.replace("\\", "/")
+            covered.setdefault(normalized, []).append(mp)
+            checksums = body["checksums"][dp]
+            deltas = body["expected_delta_counts"][dp]
+            if normalized in data_edits and (
+                checksums["before_sha256"] == checksums["after_sha256"]
+                or (deltas["entries_changed"] == 0 and deltas["fields_changed"] == 0)
+            ):
+                no_op_coverage.append(f"  {normalized}: {mp}")
 
     if failed_identities:
         messages.append(
@@ -289,11 +298,23 @@ def evaluate_gate(
     if failed_identities or manifest_errors:
         return 1, messages
 
+    if no_op_coverage:
+        messages.append("BLOCKED: staged data edit(s) are covered by a no-op writer manifest:")
+        messages.extend(no_op_coverage)
+        return 1, messages
+
     uncovered = [p for p in data_edits if p not in covered]
     if uncovered:
         messages.append("BLOCKED: data/ edit(s) not declared in any staged manifest:")
         for p in uncovered:
             messages.append(f"  {p}")
+        return 1, messages
+
+    multiply_covered = {path: receipts for path, receipts in covered.items() if path in data_edits and len(receipts) != 1}
+    if multiply_covered:
+        messages.append("BLOCKED: every staged data JSON must be covered by exactly one writer manifest:")
+        for path, receipts in sorted(multiply_covered.items()):
+            messages.append(f"  {path}: {', '.join(receipts)}")
         return 1, messages
 
     return 0, messages

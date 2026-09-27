@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "writer": "parser",
+  "writer_version": "build/parsers/ccel_arminius_works.py@v1.0.0",
+  "writer_identity": "ccel_arminius_works_parser",
+  "run_id": "e97eb35b915c45e385eef9a12a3a69d4",
+  "started_at": "2026-09-27T21:08:45.398377+00:00",
+  "data_paths": [
+    "data/structured-text/arminius-works-vol-1.json",
+    "data/structured-text/arminius-works-vol-2.json",
+    "data/structured-text/arminius-works-vol-3.json"
+  ],
+  "checksums": {
+    "data/structured-text/arminius-works-vol-1.json": {
+      "before_sha256": null,
+      "after_sha256": "64b1782f3a2f494cb279bc61c2991824b1127d20183d1731f48021392ec6167b"
+    },
+    "data/structured-text/arminius-works-vol-2.json": {
+      "before_sha256": null,
+      "after_sha256": "db915469f06d76fc26c0771c73f0ab841f55a21a18585c3b277c50c9db897193"
+    },
+    "data/structured-text/arminius-works-vol-3.json": {
+      "before_sha256": null,
+      "after_sha256": "8061f118806962a7b03063359499e25dc914e32da5e481f104c02de4da60e417"
+    }
+  },
+  "expected_delta_counts": {
+    "data/structured-text/arminius-works-vol-1.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/arminius-works-vol-2.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/arminius-works-vol-3.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    }
+  },
+  "allowed_field_paths": [
+    "/meta",
+    "/data"
+  ],
+  "partial_completion_policy": "all_or_nothing",
+  "renames": []
+}

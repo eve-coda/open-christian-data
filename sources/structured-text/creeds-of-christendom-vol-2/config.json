@@ -1,0 +1,41 @@
+{
+  "resource_id": "creeds-of-christendom-vol-2",
+  "title": "The Creeds of Christendom, Vol. II: The Greek and Latin Creeds",
+  "author": "Philip Schaff",
+  "author_birth_year": 1819,
+  "author_death_year": 1893,
+  "contributors": [
+    {
+      "name": "David S. Schaff",
+      "role": "reviser"
+    },
+    {
+      "name": "Christian Classics Ethereal Library",
+      "role": "transcriber"
+    },
+    {
+      "name": "Charles Bowen",
+      "role": "editor"
+    }
+  ],
+  "original_publication_year": 1877,
+  "edition": "Sixth edition, revised and enlarged (1931)",
+  "language": "en",
+  "original_language": "en",
+  "tradition": [
+    "ecumenical"
+  ],
+  "era": "modern",
+  "audience": "scholarly",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "work_kind": "theological-work",
+  "source_url": "https://www.ccel.org/ccel/schaff/creeds2.xml",
+  "source_format": "ThML XML",
+  "source_edition": "Philip Schaff, The Creeds of Christendom, with a History and Critical Notes, sixth edition, revised and enlarged by David S. Schaff (1931), Vol. II; original three-volume edition published in 1877; Christian Classics Ethereal Library (CCEL) ThML transcription",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:412c952ff096d7e09a1f2d9e838e9652f0fedcbf7e8d6f3999c27e69ab69091e",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/ccel_creeds_of_christendom.py@v2.0.0",
+  "processing_date": "2026-09-17"
+}

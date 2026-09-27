@@ -1,0 +1,16 @@
+{
+  "resource_id": "arminius-works-vol-3",
+  "title": "The Works of James Arminius, Vol. 3",
+  "author": "Jacobus Arminius",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://www.ccel.org/ccel/arminius/works3.xml",
+  "source_format": "ThML XML",
+  "source_edition": "The Works of James Arminius, translated by James Nichols and William R. Bagnall, three-volume English edition, 1853",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:e8fb3d3ba06ac5ac5ffd3d1061f5f30cc83c7d5a17521e71d6d41036be282f4d",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/ccel_arminius_works.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Front matter retained; generated indexes excluded."
+}

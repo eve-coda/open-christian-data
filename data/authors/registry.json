@@ -611,6 +611,23 @@
       "notes": "Bishop of Winchester; principal translator of the KJV; father of Caroline Anglicanism. Private Devotions (Preces Privatae) written in Greek, Latin, and Hebrew."
     },
     {
+      "author_id": "anonymous",
+      "display_name": "Anonymous",
+      "aliases": [
+        "Unknown author"
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "tradition": [
+        "ecumenical"
+      ],
+      "nationality": null,
+      "works": [
+        "cloud-of-unknowing"
+      ],
+      "notes": "Generic attribution for works whose author is unknown; not a single historical person."
+    },
+    {
       "author_id": "anselm-of-canterbury",
       "display_name": "Anselm of Canterbury",
       "aliases": [
@@ -1053,7 +1070,8 @@
       ],
       "nationality": null,
       "works": [
-        "benedict-of-nursia"
+        "benedict-of-nursia",
+        "rule-of-benedict-1906"
       ],
       "notes": "Father of Western monasticism; author of the Rule of Saint Benedict. Dates approximate."
     },
@@ -1161,6 +1179,26 @@
         "expositors-bible"
       ],
       "notes": null
+    },
+    {
+      "author_id": "bonaventure",
+      "display_name": "Bonaventure",
+      "aliases": [
+        "Saint Bonaventure",
+        "Bonaventure of Bagnoregio",
+        "Doctor Seraphicus"
+      ],
+      "birth_year": 1217,
+      "death_year": 1274,
+      "tradition": [
+        "catholic",
+        "scholastic"
+      ],
+      "nationality": "Italian",
+      "works": [
+        "bonaventure-opera-omnia-vol-5"
+      ],
+      "notes": "Franciscan theologian, cardinal, and Doctor of the Church; birth year is approximate."
     },
     {
       "author_id": "book-of-biblical-antiquities",
@@ -1523,6 +1561,23 @@
       "notes": "Bishop of Aquileia; friend of Jerome and Rufinus. Birth year unknown."
     },
     {
+      "author_id": "church-of-england",
+      "display_name": "Church of England",
+      "aliases": [
+        "Ecclesia Anglicana"
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "tradition": [
+        "ecumenical"
+      ],
+      "nationality": null,
+      "works": [
+        "nicene-creed-anglican-bcp-1662"
+      ],
+      "notes": "Corporate attribution for the 1662 Book of Common Prayer witness of the Niceno-Constantinopolitan Creed."
+    },
+    {
       "author_id": "clement-of-alexandria",
       "display_name": "Clement of Alexandria",
       "aliases": [
@@ -1676,6 +1731,24 @@
         "council-of-ephesus"
       ],
       "notes": "Third Ecumenical Council, 431 AD; condemned Nestorianism and affirmed the Theotokos."
+    },
+    {
+      "author_id": "council-of-trent",
+      "display_name": "Council of Trent",
+      "aliases": [
+        "Concilium Tridentinum"
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "tradition": [
+        "catholic",
+        "confessional"
+      ],
+      "nationality": null,
+      "works": [
+        "roman-catechism-1829"
+      ],
+      "notes": "Roman Catholic ecumenical council held from 1545 to 1563; corporate attribution for the Roman Catechism."
     },
     {
       "author_id": "cox-samuel",
@@ -2555,6 +2628,25 @@
       "notes": "381 AD council that finalized the Nicene Creed. Also known as the Second Ecumenical Council."
     },
     {
+      "author_id": "first-council-of-nicaea",
+      "display_name": "First Council of Nicaea",
+      "aliases": [
+        "Council of Nicaea (325)",
+        "First Ecumenical Council"
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "tradition": [
+        "ecumenical",
+        "patristic"
+      ],
+      "nationality": null,
+      "works": [
+        "nicene-creed-325"
+      ],
+      "notes": "The first ecumenical council, convened in 325; corporate attribution for the original Nicene Creed."
+    },
+    {
       "author_id": "fisher-edward",
       "display_name": "Edward Fisher",
       "aliases": [
@@ -3200,7 +3292,8 @@
       "display_name": "Hippolytus of Rome",
       "aliases": [
         "St. Hippolytus",
-        "Hippolytus of Rome (170-235)"
+        "Hippolytus of Rome (170-235)",
+        "Hippolytus of Rome (attributed)"
       ],
       "birth_year": 170,
       "death_year": 235,
@@ -3209,7 +3302,8 @@
       ],
       "nationality": null,
       "works": [
-        "hippolytus-of-rome"
+        "hippolytus-of-rome",
+        "apostolic-tradition-easton-1934"
       ],
       "notes": "Early Roman theologian and anti-pope; author of 'Refutation of All Heresies'. Dates approximate."
     },
@@ -3516,6 +3610,28 @@
       "notes": "Bishop of Serugh (Syria); prolific Syriac hymnographer."
     },
     {
+      "author_id": "jacobus-arminius",
+      "display_name": "Jacobus Arminius",
+      "aliases": [
+        "James Arminius",
+        "Jakob Hermanszoon",
+        "Jacob Harmenszoon"
+      ],
+      "birth_year": 1560,
+      "death_year": 1609,
+      "tradition": [
+        "arminian",
+        "reformed"
+      ],
+      "nationality": "Dutch",
+      "works": [
+        "arminius-works-vol-1",
+        "arminius-works-vol-2",
+        "arminius-works-vol-3"
+      ],
+      "notes": "Dutch Reformed theologian whose teaching gave rise to the Remonstrant tradition."
+    },
+    {
       "author_id": "james",
       "display_name": "James",
       "aliases": [],
@@ -3768,6 +3884,26 @@
         "john-damascene"
       ],
       "notes": "Syrian monk and priest; last of the Church Fathers; author of 'Fountain of Knowledge'. Dates approximate."
+    },
+    {
+      "author_id": "john-duns-scotus",
+      "display_name": "John Duns Scotus",
+      "aliases": [
+        "Duns Scotus",
+        "Joannes Duns Scotus",
+        "Doctor Subtilis"
+      ],
+      "birth_year": 1266,
+      "death_year": 1308,
+      "tradition": [
+        "catholic",
+        "scholastic"
+      ],
+      "nationality": "Scottish",
+      "works": [
+        "duns-scotus-opera-omnia-vol-8"
+      ],
+      "notes": "Franciscan scholastic theologian and philosopher; birth year is approximate."
     },
     {
       "author_id": "john-flavel",
@@ -4197,6 +4333,24 @@
         "julian-of-eclanum"
       ],
       "notes": "Bishop of Eclanum; Pelagian theologian and opponent of Augustine. Dates approximate."
+    },
+    {
+      "author_id": "julian-of-norwich",
+      "display_name": "Julian of Norwich",
+      "aliases": [
+        "Dame Julian of Norwich"
+      ],
+      "birth_year": 1343,
+      "death_year": 1416,
+      "tradition": [
+        "catholic",
+        "monastic"
+      ],
+      "nationality": "English",
+      "works": [
+        "julian-revelations-divine-love"
+      ],
+      "notes": "English anchoress and mystic; both dates are approximate and the death year is a terminus post quem."
     },
     {
       "author_id": "julian-of-toledo",
@@ -4713,7 +4867,8 @@
       ],
       "nationality": "German",
       "works": [
-        "martin-luther"
+        "martin-luther",
+        "smalcald-articles"
       ],
       "notes": null
     },
@@ -5535,6 +5690,26 @@
       "notes": "Archbishop of Ravenna; Doctor of the Church; known for short, eloquent sermons. Dates approximate."
     },
     {
+      "author_id": "peter-lombard",
+      "display_name": "Peter Lombard",
+      "aliases": [
+        "Petrus Lombardus",
+        "Master of the Sentences"
+      ],
+      "birth_year": 1096,
+      "death_year": 1160,
+      "tradition": [
+        "catholic",
+        "scholastic"
+      ],
+      "nationality": "Italian",
+      "works": [
+        "peter-lombard-sentences-1841-vols-1-2",
+        "peter-lombard-sentences-1841-vols-3-4"
+      ],
+      "notes": "Scholastic theologian and bishop of Paris; dates are approximate."
+    },
+    {
       "author_id": "peter-of-alexandria",
       "display_name": "Peter of Alexandria",
       "aliases": [
@@ -5616,6 +5791,27 @@
         "phileas-of-thmuis"
       ],
       "notes": "Bishop of Thmuis (Egypt); martyr under Diocletian; wrote a letter on the persecution. Birth year unknown."
+    },
+    {
+      "author_id": "philipp-melanchthon",
+      "display_name": "Philipp Melanchthon",
+      "aliases": [
+        "Philip Melanchthon",
+        "Philipp Schwartzerdt"
+      ],
+      "birth_year": 1497,
+      "death_year": 1560,
+      "tradition": [
+        "lutheran",
+        "confessional"
+      ],
+      "nationality": "German",
+      "works": [
+        "apology-augsburg-confession",
+        "power-primacy-pope",
+        "smalcald-articles"
+      ],
+      "notes": "German reformer and principal author of several Lutheran confessional documents."
     },
     {
       "author_id": "philippians",
@@ -6121,7 +6317,8 @@
       ],
       "nationality": null,
       "works": [
-        "pseudo-dionysius-the-areopagite"
+        "pseudo-dionysius-the-areopagite",
+        "pseudo-dionysius-works-parker"
       ],
       "notes": "Works falsely attributed to Dionysius the Areopagite; actual authorship unknown."
     },
@@ -6589,7 +6786,10 @@
       ],
       "nationality": "Swiss-American",
       "works": [
-        "schaff-philip"
+        "schaff-philip",
+        "creeds-of-christendom-vol-1",
+        "creeds-of-christendom-vol-2",
+        "creeds-of-christendom-vol-3"
       ],
       "notes": "Church historian; professor at Union Theological Seminary. Author of the 8-volume History of the Christian Church and editor of the Nicene and Post-Nicene Fathers series."
     },

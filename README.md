@@ -20,7 +20,7 @@ Code can only take you so far and is not human friendly for review, so we determ
 
 **Current Release: V0.2.0:**
 
-**Nearly 150 million words of Christian texts across 12 categories, including 363 books.** The collection also includes 34,904 hymns, 5,297 sermons, nine Bible translations, and extensive commentary and reference material.
+**Nearly 150 million words of Christian texts across 12 categories and 425 cataloged works.** The collection also includes 34,904 hymns, 5,297 sermons, nine Bible translations, and extensive commentary and reference material.
 
 ## How the collection is made
 
@@ -48,20 +48,20 @@ py -3 build/tools/count_dataset_records.py
 
 | Category                                     | What the collection contains                                                                                                     |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Books and long-form works                    | 288 works, including theology, church history, treatises, and devotional classics, divided into 259,198 passages for publication |
+| Books and long-form works                    | 306 works, including theology, church history, treatises, and devotional classics, divided into 272,068 passages for publication |
 | Bible translations                           | 9 translations containing 282,395 verses                                                                                         |
 | Commentaries                                 | 34 commentaries containing 115,069 entries                                                                                       |
 | Dictionaries and encyclopedias               | 6 dictionaries and encyclopedias containing 25,682 entries                                                                       |
 | Topical Bibles and indexes                   | *Nave's Topical Bible* and *Torrey's New Topical Textbook*, containing 5,945 topics                                              |
 | Devotionals                                  | 2 devotionals containing 1,464 readings                                                                                          |
 | Sermons                                      | 5,297 sermons from 7 collections                                                                                                 |
-| Creeds, confessions, and doctrinal documents | 33 documents published as 1,314 articles and clauses                                                                             |
+| Creeds, confessions, and doctrinal documents | 38 documents published as 1,334 articles and clauses                                                                             |
 | Catechisms                                   | 15 catechisms containing 3,509 questions and answers                                                                             |
 | Prayers and liturgies                        | 4 sources containing 205 prayers and collects                                                                                    |
 | Hymns                                        | 34,904 hymn texts                                                                                                                |
 | Church Fathers quotations                    | 70,164 scripture-linked quotations                                                                                               |
 
-The Hugging Face files contain 805,146 downloadable records. That is a technical loading statistic: depending on the category, a record may be a verse, passage, sermon, hymn, question and answer, prayer, quotation, or reference entry. The generated work catalog and metadata audit live at [`docs/WORK_CATALOG.md`](docs/WORK_CATALOG.md). A browser-friendly review surface is available at [`docs/WORK_CATALOG.html`](docs/WORK_CATALOG.html).
+The Hugging Face files contain 818,036 downloadable records. That is a technical loading statistic: depending on the category, a record may be a verse, passage, sermon, hymn, question and answer, prayer, quotation, or reference entry. The generated work catalog and metadata audit live at [`docs/WORK_CATALOG.md`](docs/WORK_CATALOG.md). A browser-friendly review surface is available at [`docs/WORK_CATALOG.html`](docs/WORK_CATALOG.html).
 
 Examples include *An Exposition of the Old and New Testament*, *The Metropolitan Tabernacle Pulpit*, *The Catholic Encyclopedia*, *Nave's Topical Bible*, *The City of God*, *Institutes of the Christian Religion*, and editions of *The Book of Common Prayer*.
 

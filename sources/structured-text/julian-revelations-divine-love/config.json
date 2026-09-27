@@ -1,0 +1,29 @@
+{
+  "resource_id": "julian-revelations-divine-love",
+  "title": "Revelations of Divine Love",
+  "author": "Julian of Norwich",
+  "contributors": [
+    {
+      "name": "Grace Warrack",
+      "role": "editor"
+    }
+  ],
+  "original_publication_year": 1395,
+  "language": "en",
+  "original_language": "enm",
+  "tradition": [
+    "monastic"
+  ],
+  "raw_filename": "julian-revelations-pg52958.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://www.gutenberg.org/ebooks/52958",
+  "source_format": "plain text",
+  "source_edition": "Project Gutenberg public-domain transcription",
+  "download_date": "2026-09-17",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Project Gutenberg frame removed. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook. Downstream users outside the United States must check local law.",
+  "source_hash": "sha256:2e01d1a44b27b001b51053053fe69db771a6609edbbbc5a7fb31da9d4b3cc4b9"
+}

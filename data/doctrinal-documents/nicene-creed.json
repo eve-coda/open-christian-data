@@ -1,35 +1,39 @@
 {
   "meta": {
     "id": "nicene-creed",
-    "title": "Nicene Creed",
-    "author": "First Council of Constantsnople",
+    "title": "Niceno-Constantinopolitan Creed (381)",
+    "author": "First Council of Constantinople",
     "author_birth_year": null,
     "author_death_year": null,
     "contributors": [
       {
-        "name": "First Council of Nicaea"
+        "name": "Philip Schaff (editor)"
+      },
+      {
+        "name": "Christian Classics Ethereal Library (digital edition)"
       }
     ],
     "original_publication_year": 381,
     "language": "en",
     "tradition": [
-      "ecumenical"
+      "ecumenical",
+      "patristic"
     ],
-    "tradition_notes": "Creed of the Council of Nicaea (325) and Council of Constantinople (381). Accepted by Roman Catholic, Eastern Orthodox, and most Protestant churches.",
-    "license": "cc0-1.0",
+    "tradition_notes": "The Constantinopolitan form received as the creed of 381. The text confesses that the Holy Spirit proceeds from the Father and does not contain the later Western filioque addition.",
+    "license": "public-domain",
     "schema_type": "doctrinal_document",
     "schema_version": "2.1.0",
     "completeness": "full",
     "provenance": {
-      "source_url": "http://www.onthewing.org/user/Creed_Nicene.pdf",
-      "source_format": "JSON",
-      "source_edition": "Creeds.json (github.com/NonlinearFruit/Creeds.json)",
-      "download_date": "2026-03-27",
-      "source_hash": "sha256:6858d88423ab59127a27b450fc69a48afd786e464e387f1cb7ddea757cc759c7",
+      "source_url": "https://www.ccel.org/ccel/schaff/creeds1.xml",
+      "source_format": "ThML XML",
+      "source_edition": "Philip Schaff, The Creeds of Christendom, sixth edition, revised and enlarged by David S. Schaff; CCEL ThML transcription",
+      "download_date": "2026-09-17",
+      "source_hash": "sha256:450960af42f600534f15429546e0a00696a9fbfc4ea32df55545ef5a02c491e7",
       "processing_method": "automated",
-      "processing_script_version": "build/parsers/creeds_json_confession.py@v1.0.0",
-      "processing_date": "2026-07-02",
-      "notes": "Proof texts from Creeds.json are already in OSIS format -- raw and osis fields are identical. Content used as canonical text; ContentWithProofs preserved as content_with_proofs. OriginalLanguage=grc recorded from Creeds.json; doctrinal_document has no meta.original_language field, so this remains provenance until the works registry owns it. Creeds.json metadata fields intentionally not carried because doctrinal_document has no schema home: AlternativeTitles, Location, SourceAttribution, CreedFormat."
+      "processing_script_version": "build/parsers/schaff_ecumenical_creeds.py@v1.0.0",
+      "processing_date": "2026-09-17",
+      "notes": "English text extracted from Schaff's parallel presentation. This record deliberately distinguishes the 325, 381, and later Western forms."
     }
   },
   "data": {
@@ -39,7 +43,7 @@
     "units": [
       {
         "unit_type": "text",
-        "content": "We believe in one God, the Father Almighty, Maker of heaven and earth, and of all things visible and invisible.\n\nAnd in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all worlds; God of God, Light of Light, very God of very God; begotten, not made, being of one substance with the Father, by whom all things were made.\n\nWho, for us men and for our salvation, came down from heaven, and was incarnate by the Holy Spirit of the virgin Mary, and was made man; and was crucified also for us under Pontius Pilate; He suffered and was buried; and the third day He rose again, according to the Scriptures; and ascended into heaven, and sits on the right hand of the Father; and He shall come again, with glory, to judge the quick and the dead; whose kingdom shall have no end.\n\nAnd we believe in the Holy Ghost, the Lord and Giver of Life; who proceeds from the Father and the Son; who with the Father and the Son together is worshipped and glorified; who spoke by the prophets.\n\nAnd we believe in one holy catholic and apostolic Church. We acknowledge one baptism for the remission of sins; and we look for the resurrection of the dead, and the life of the world to come. Amen."
+        "content": "We believe in one God, the Father Almighty, Maker of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all worlds (æons), Light of Light, very God of very God, begotten, not made, being of one substance with the Father; by whom all things were made; who for us men, and for our salvation, came down from heaven, and was incarnate by the Holy Ghost of the Virgin Mary, and was made man; he was crucified for us under Pontius Pilate, and suffered, and was buried, and the third day he rose again, according to the Scriptures, and ascended into heaven, and sitteth on the right hand of the Father; from thence he shall come again, with glory, to judge the quick and the dead; whose kingdom shall have no end. And in the Holy Ghost, the Lord and Giver of life, who proceedeth from the Father, who with the Father and the Son together is worshiped and glorified, who spake by the prophets. In one holy catholic and apostolic Church; we acknowledge one baptism for the remission of sins; we look for the resurrection of the dead, and the life of the world to come. Amen."
       }
     ]
   }

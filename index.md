@@ -1,6 +1,6 @@
 # Open Christian Data -- Work Index
 
-**405 works** across 12 categories.
+**425 works** across 12 categories.
 
 | Category | Works |
 |---|---|
@@ -9,12 +9,12 @@
 | Church Fathers | 1 |
 | Commentaries | 34 |
 | Devotionals | 2 |
-| Doctrinal Documents | 36 |
+| Doctrinal Documents | 38 |
 | Hymns | 1 |
 | Prayers | 4 |
 | Dictionaries and Encyclopedias | 6 |
 | Sermons | 7 |
-| Books and Long-Form Works | 288 |
+| Books and Long-Form Works | 306 |
 | Topical Bibles and Indexes | 2 |
 
 ## Bible Translations (9)
@@ -103,7 +103,7 @@
 | Daily Light on the Daily Path | Jonathan Bagster | 1875 | evangelical, reformed, non-denominational |
 | Morning and Evening: Daily Readings | C. H. Spurgeon | 1865 | reformed, calvinist, particular-baptist, evangelical |
 
-## Doctrinal Documents (36)
+## Doctrinal Documents (38)
 
 | Title | Author | Year | Tradition |
 |---|---|---|---|
@@ -125,7 +125,9 @@
 | Ignatius' Creed | Ignatius of Antioch | 110 | patristic |
 | Irenaeus' Rule of Faith | Irenaeus | 180 | patristic |
 | NAE Statement of Faith (Current Official Form) | National Association of Evangelicals | 1943 | evangelical, free-church |
-| Nicene Creed | First Council of Constantsnople | 381 | ecumenical |
+| Nicene Creed (325) | First Council of Nicaea | 325 | ecumenical, patristic |
+| Niceno-Constantinopolitan Creed (381) | First Council of Constantinople | 381 | ecumenical, patristic |
+| Niceno-Constantinopolitan Creed: Anglican Book of Common Prayer (1662), Schaff Protestant Received Text | Church of England | 1662 | ecumenical, patristic |
 | Research Summary of the Lausanne Seoul Statement (2024): Baptism and the Lord's Supper | Open Christian Data contributors | 2026 | evangelical, free-church |
 | Savoy Declaration of Faith |  | 1658 | reformed, puritan, nonconformist |
 | Scots Confession | John Winram | 1560 | reformed |
@@ -182,7 +184,7 @@
 | Sermons on Several Occasions | John Wesley | 1746 | methodist, arminian, evangelical |  |
 | Unspoken Sermons | George MacDonald | 1867 | evangelical, non-denominational |  |
 
-## Books and Long-Form Works (288)
+## Books and Long-Form Works (306)
 
 | Title | Author | Year | Tradition | Files |
 |---|---|---|---|---|
@@ -229,8 +231,10 @@
 | Answer to Eunomius' Second Book | Gregory of Nyssa | 381 | patristic, ecumenical |  |
 | Answer to the Letters of Petilian, the Donatist | Augustine of Hippo | 400 | patristic, ecumenical |  |
 | Apologia Pro Vita Sua | John Henry Newman | 1864 | anglican, catholic |  |
+| Apology of the Augsburg Confession | Philipp Melanchthon | 1531 | lutheran, confessional |  |
 | Apology to the Emperor | Athanasius of Alexandria | 357 | patristic, ecumenical |  |
 | Arian History | Athanasius of Alexandria | 357 | patristic, ecumenical |  |
+| Bonaventure, Opera Omnia, Vol. V | Bonaventure | 1274 | catholic |  |
 | Brief Declaration and Vindication of the Doctrine of the Trinity | John Owen | 1669 | reformed, puritan, nonconformist |  |
 | Catechetical Lectures | Cyril of Jerusalem | 1893 | patristic, ecumenical |  |
 | Christianity and Liberalism | J. Gresham Machen | 1923 | reformed, presbyterian |  |
@@ -258,6 +262,7 @@
 | Dogmatic Theology, Vol. 1 | W. G. T. Shedd | 1888 | reformed, presbyterian |  |
 | Dogmatic Theology, Vol. 2 | W. G. T. Shedd | 1889 | reformed, presbyterian |  |
 | Dogmatic Theology, Vol. 3 | W. G. T. Shedd | 1894 | reformed, presbyterian |  |
+| Duns Scotus, Opera Omnia, Vol. VIII | John Duns Scotus | 1305 | scholastic |  |
 | Encyclical Letter | Athanasius of Alexandria | 339 | patristic, ecumenical |  |
 | Eshcol: A Cluster of the Fruit of Canaan | John Owen | 1648 | reformed, puritan, nonconformist |  |
 | Exposition of the Christian Faith | Ambrose of Milan | 1896 | patristic, ecumenical |  |
@@ -369,6 +374,8 @@
 | Paradise Lost | John Milton | 1667 | puritan |  |
 | Pastoral Rule and Selected Epistles | Gregory the Great | 1895 | patristic, ecumenical, catholic |  |
 | Pensées | Blaise Pascal | 1660 | catholic, jansenist |  |
+| Peter Lombard, Sentences, Books I-II | Peter Lombard | 1152 | catholic |  |
+| Peter Lombard, Sentences, Books III-IV | Peter Lombard | 1152 | catholic |  |
 | Pneumatologia: A Discourse Concerning the Holy Spirit | John Owen | 1674 | reformed, puritan, nonconformist |  |
 | Power Through Prayer | E.M. Bounds | 1907 | methodist, evangelical, holiness |  |
 | Practical Mysticism | Evelyn Underhill | 1914 | anglican, ecumenical |  |
@@ -377,6 +384,7 @@
 | Purpose in Prayer | E.M. Bounds | 1920 | methodist, evangelical, holiness |  |
 | Religious Affections | Jonathan Edwards | 1746 | reformed, calvinist, evangelical |  |
 | Reply to Faustus the Manichaean | Augustine of Hippo | 400 | patristic, ecumenical |  |
+| Revelations of Divine Love | Julian of Norwich | 1395 | monastic |  |
 | Sacramental Discourses | John Owen | 1727 | reformed, puritan, nonconformist |  |
 | Select Letters | Gregory of Nazianzus | 1893 | patristic, ecumenical |  |
 | Select Orations | Gregory of Nazianzus | 1893 | patristic, ecumenical |  |
@@ -404,6 +412,7 @@
 | Systematic Theology, Vol. 3 | Augustus H. Strong | 1907 | baptist, evangelical |  |
 | Ten Homilies on the First Epistle of John | Augustine of Hippo | 415 | patristic, ecumenical |  |
 | The Analogy of Religion | Joseph Butler | 1736 | anglican |  |
+| The Apostolic Tradition of Hippolytus | Hippolytus of Rome (attributed) | 215 | patristic |  |
 | The Art of Divine Contentment | Thomas Watson | 1653 | reformed, puritan, nonconformist |  |
 | The Beatitudes | Thomas Watson | 1660 | reformed, puritan, nonconformist |  |
 | The Bondage of the Will | Martin Luther | 1823 | lutheran |  |
@@ -411,12 +420,16 @@
 | The Book of Common Prayer (1559) | Church of England | 1559 | anglican |  |
 | The Book of Common Prayer (1662) | Church of England | 1662 | anglican |  |
 | The Bruised Reed and Smoking Flax | Richard Sibbes | 1630 | reformed, puritan |  |
+| The Catechism of the Council of Trent | Council of Trent | 1566 | catholic |  |
 | The Christian in Complete Armour | William Gurnall | 1662 | reformed, puritan |  |
 | The Christian's Secret of a Happy Life | Hannah Whitall Smith | 1875 | holiness, quaker |  |
 | The City of God | Augustine of Hippo | 413; 426 | patristic, catholic, patristic, ecumenical | 2 |
+| The Cloud of Unknowing | Anonymous | 1375 | monastic |  |
 | The Confessions of St. Augustin | Augustine of Hippo | 397 | patristic, ecumenical |  |
 | The Correction of the Donatists | Augustine of Hippo | 417 | patristic, ecumenical |  |
 | The Creeds of Christendom, Vol. I: The History of Creeds | Philip Schaff | 1877 | ecumenical |  |
+| The Creeds of Christendom, Vol. II: The Greek and Latin Creeds | Philip Schaff | 1877 | ecumenical |  |
+| The Creeds of Christendom, Vol. III: The Evangelical Protestant Creeds | Philip Schaff | 1877 | ecumenical |  |
 | The Crook in the Lot | Thomas Boston | 1737 | reformed, presbyterian |  |
 | The Dialogue Against the Luciferians | Jerome | 1892 | patristic, ecumenical |  |
 | The Distinguishing Marks of a Work of the Spirit of God | Jonathan Edwards | 1741 | reformed, calvinist, evangelical |  |
@@ -456,16 +469,23 @@
 | The Reformed Pastor | Richard Baxter | 1656 | reformed, puritan, nonconformist |  |
 | The Rule and Exercises of Holy Dying | Jeremy Taylor | 1651 | anglican |  |
 | The Rule and Exercises of Holy Living | Jeremy Taylor | 1650 | anglican |  |
+| The Rule of Saint Benedict | Benedict of Nursia | 530 | monastic |  |
 | The Saints' Everlasting Rest | Richard Baxter | 1650 | reformed, puritan, nonconformist |  |
 | The Seven Ecumenical Councils: Canons and Decrees | Seven Ecumenical Councils | 1900 | patristic, ecumenical |  |
+| The Smalcald Articles | Martin Luther | 1537 | lutheran, confessional |  |
 | The Soliloquies of St. Augustin | Augustine of Hippo | 386 | patristic, ecumenical |  |
 | The Sovereignty of God | A. W. Pink | 1918 | reformed, calvinist |  |
 | The Ten Commandments | Thomas Watson | 1692 | reformed, puritan, nonconformist |  |
 | The Theological Tractates | Boethius | 1918 | patristic, ecumenical |  |
 | The Weapon of Prayer | E.M. Bounds | 1931 | methodist, evangelical, wesleyan |  |
+| The Works of Dionysius the Areopagite, Volumes I–II | Pseudo-Dionysius the Areopagite | 500 | patristic, monastic |  |
+| The Works of James Arminius, Vol. 1 | Jacobus Arminius | 1629 | arminian, reformed |  |
+| The Works of James Arminius, Vol. 2 | Jacobus Arminius | 1629 | arminian, reformed |  |
+| The Works of James Arminius, Vol. 3 | Jacobus Arminius | 1629 | arminian, reformed |  |
 | Three Homilies Concerning the Power of Demons | John Chrysostom | 388 | patristic, ecumenical |  |
 | To Pammachius Against John of Jerusalem | Jerome | 1892 | patristic, ecumenical |  |
 | Treatise Concerning the Christian Priesthood | John Chrysostom | 388 | patristic, ecumenical |  |
+| Treatise on the Power and Primacy of the Pope | Philipp Melanchthon | 1537 | lutheran, confessional |  |
 | Treatise to Prove That No One Can Harm the Man Who Does Not Injure Himself | John Chrysostom | 406 | patristic, ecumenical |  |
 | Truth and Innocence Vindicated | John Owen | 1669 | reformed, puritan, nonconformist |  |
 | Two Homilies on Eutropius | John Chrysostom | 399 | patristic, ecumenical |  |

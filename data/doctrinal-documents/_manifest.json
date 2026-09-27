@@ -136,9 +136,21 @@
     },
     {
       "id": "nicene-creed",
-      "title": "Nicene Creed",
+      "title": "Niceno-Constantinopolitan Creed (381)",
       "document_kind": "creed",
       "file": "nicene-creed.json"
+    },
+    {
+      "id": "nicene-creed-325",
+      "title": "Nicene Creed (325)",
+      "document_kind": "creed",
+      "file": "nicene-creed-325.json"
+    },
+    {
+      "id": "nicene-creed-anglican-bcp-1662",
+      "title": "Niceno-Constantinopolitan Creed: Anglican Book of Common Prayer (1662), Schaff Protestant Received Text",
+      "document_kind": "creed",
+      "file": "nicene-creed-anglican-bcp-1662.json"
     },
     {
       "id": "savoy-declaration",
@@ -220,7 +232,7 @@
     }
   ],
   "stats": {
-    "total_documents": 36
+    "total_documents": 38
   },
   "last_updated": "2026-09-27"
 }

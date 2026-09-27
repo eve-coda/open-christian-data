@@ -1,0 +1,33 @@
+{
+  "resource_id": "duns-scotus-opera-omnia-vol-8",
+  "title": "Duns Scotus, Opera Omnia, Vol. VIII",
+  "author": "John Duns Scotus",
+  "contributors": [
+    {
+      "name": "Luke Wadding",
+      "role": "editor"
+    },
+    {
+      "name": "Franciscan Fathers of the Observance",
+      "role": "reviser"
+    }
+  ],
+  "original_publication_year": 1305,
+  "language": "la",
+  "original_language": "la",
+  "tradition": [
+    "scholastic"
+  ],
+  "raw_filename": "duns-scotus-opera-vol8-1891.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://archive.org/details/operaomni08duns",
+  "source_format": "machine OCR text",
+  "source_edition": "Wadding-Vivès Latin edition, Vol. VIII, 1891; Ordinatio I, distinctions 1-2",
+  "download_date": "2026-09-17",
+  "processing_method": "ocr",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Source-complete scan coverage; 'full' does not assert textual accuracy. This is uncorrected machine OCR with residual recognition errors, running headers, pagination, and front/back matter. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. Consult the linked scan for textual verification.",
+  "source_hash": "sha256:f11718600462ddd10fda1c74f8e005dc557eb9499d1bb118773c2bd42c68adb7"
+}
