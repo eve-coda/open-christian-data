@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "nae-statement-of-faith-current",
+    "title": "NAE Statement of Faith (Current Official Form)",
+    "author": "National Association of Evangelicals",
+    "original_publication_year": 1943,
+    "language": "en",
+    "tradition": [
+      "evangelical",
+      "free-church"
+    ],
+    "tradition_notes": "A seven-point statement in the NAE's current official web form. The organization first adopted a Statement of Faith in 1943; this record does not assert that the current wording is textually identical to the 1943 form.",
+    "license": "public-domain",
+    "schema_type": "doctrinal_document",
+    "schema_version": "2.1.0",
+    "completeness": "full",
+    "provenance": {
+      "source_url": "https://www.nae.org/statement-of-faith/",
+      "source_format": "HTML",
+      "source_edition": "Current official English HTML snapshot captured 2026-09-27; first adopted in 1943, without a claim of textual identity with the 1943 form",
+      "download_date": "2026-09-27",
+      "source_hash": "sha256:fc249d8e8bfcba677337a4860d83bdf472c29fd7682b337d47f9eeca4e646f8e",
+      "processing_method": "automated-with-review",
+      "processing_script_version": "build/parsers/modern_evangelical_statements.py@v1.0.0",
+      "processing_date": "2026-09-27",
+      "notes": "Parsed verbatim from the seven belief paragraphs in the current official web form captured on 2026-09-27; no textual identity with the 1943 form is claimed. Required attribution: As adopted by the National Association of Evangelicals. The attribution is preserved here rather than as an eighth doctrinal article."
+    }
+  },
+  "data": {
+    "document_id": "nae-statement-of-faith-current",
+    "document_kind": "declaration",
+    "units": [
+      {
+        "unit_type": "article",
+        "number": "1",
+        "title": "Article 1",
+        "content": "We believe the Bible to be the inspired, the only infallible, authoritative Word of God."
+      },
+      {
+        "unit_type": "article",
+        "number": "2",
+        "title": "Article 2",
+        "content": "We believe that there is one God, eternally existent in three persons: Father, Son and Holy Spirit."
+      },
+      {
+        "unit_type": "article",
+        "number": "3",
+        "title": "Article 3",
+        "content": "We believe in the deity of our Lord Jesus Christ, in His virgin birth, in His sinless life, in His miracles, in His vicarious and atoning death through His shed blood, in His bodily resurrection, in His ascension to the right hand of the Father, and in His personal return in power and glory."
+      },
+      {
+        "unit_type": "article",
+        "number": "4",
+        "title": "Article 4",
+        "content": "We believe that for the salvation of lost and sinful people, regeneration by the Holy Spirit is absolutely essential."
+      },
+      {
+        "unit_type": "article",
+        "number": "5",
+        "title": "Article 5",
+        "content": "We believe in the present ministry of the Holy Spirit by whose indwelling the Christian is enabled to live a godly life."
+      },
+      {
+        "unit_type": "article",
+        "number": "6",
+        "title": "Article 6",
+        "content": "We believe in the resurrection of both the saved and the lost; they that are saved unto the resurrection of life and they that are lost unto the resurrection of damnation."
+      },
+      {
+        "unit_type": "article",
+        "number": "7",
+        "title": "Article 7",
+        "content": "We believe in the spiritual unity of believers in our Lord Jesus Christ."
+      }
+    ],
+    "revision_history": [
+      {
+        "year": 1943,
+        "body": "National Association of Evangelicals",
+        "description": "The NAE first adopted a Statement of Faith in 1943."
+      },
+      {
+        "year": 2026,
+        "body": "National Association of Evangelicals",
+        "description": "Current official web form captured on 2026-09-27; this record does not claim that the captured wording is textually identical to the statement as adopted in 1943."
+      }
+    ]
+  }
+}

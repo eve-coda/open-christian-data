@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "writer": "parser",
+  "writer_version": "build/parsers/modern_evangelical_statements.py@v1.0.0",
+  "writer_identity": "modern_evangelical_statements_parser",
+  "run_id": "89cb1b3fd4794d2ba77d4a38ebb0e143",
+  "started_at": "2026-09-27T19:56:20.509651+00:00",
+  "data_paths": [
+    "data/doctrinal-documents/_manifest.json",
+    "data/doctrinal-documents/efca-statement-of-faith-2019.json",
+    "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json",
+    "data/doctrinal-documents/nae-statement-of-faith-current.json"
+  ],
+  "checksums": {
+    "data/doctrinal-documents/efca-statement-of-faith-2019.json": {
+      "before_sha256": "c322c82378d409fec4e8ac009cc7aabc7dd5fea780c256743d95ad5bce5d9bd9",
+      "after_sha256": "c322c82378d409fec4e8ac009cc7aabc7dd5fea780c256743d95ad5bce5d9bd9"
+    },
+    "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json": {
+      "before_sha256": "562ac7fbc5dccb846ddccb32bad16716fb3327877b3f5958cdd2f6a02b651ea9",
+      "after_sha256": "b1f4023ad078c959b664d2fa71e16036283c773f390f0ddeec3c2e91e658544c"
+    },
+    "data/doctrinal-documents/nae-statement-of-faith-current.json": {
+      "before_sha256": null,
+      "after_sha256": "51ad9862cd019cc1a0b37cac04bcbd4f3772bae380cacf1fac0f947442ee4d29"
+    },
+    "data/doctrinal-documents/_manifest.json": {
+      "before_sha256": "c826a2d9c87b87edb6b9027551e404c0bfa1da3dc3932d32662aa79b0321684a",
+      "after_sha256": "d5cd46cb9ada3b24dba204ab812b7596dda0f24060f1d2a4c0a0a96efe40e533"
+    }
+  },
+  "expected_delta_counts": {
+    "data/doctrinal-documents/efca-statement-of-faith-2019.json": {
+      "entries_changed": 0,
+      "fields_changed": 0
+    },
+    "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json": {
+      "entries_changed": 1,
+      "fields_changed": 1
+    },
+    "data/doctrinal-documents/nae-statement-of-faith-current.json": {
+      "entries_changed": 9,
+      "fields_changed": 43
+    },
+    "data/doctrinal-documents/_manifest.json": {
+      "entries_changed": 2,
+      "fields_changed": 8
+    }
+  },
+  "allowed_field_paths": [
+    "/meta",
+    "/data"
+  ],
+  "partial_completion_policy": "all_or_nothing",
+  "renames": []
+}

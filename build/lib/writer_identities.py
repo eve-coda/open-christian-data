@@ -61,6 +61,7 @@ _REGISTERED: dict[str, str] = {
     "bible_dictionaries_parser": "parser",
     "sword_commentary_parser": "parser",
     "westminster_standard_parser": "parser",
+    "modern_evangelical_statements_parser": "parser",
 }
 
 

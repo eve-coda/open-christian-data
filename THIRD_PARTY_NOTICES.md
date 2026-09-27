@@ -35,3 +35,32 @@ Source: https://github.com/scrollmapper/bible_databases
 Note: The Berean Standard Bible text distributed in this project is CC0
 (https://berean.bible/licensing.htm). The MIT license above applies to the
 Scrollmapper database format and tooling, not to the BSB text itself.
+
+---
+
+## Modern evangelical statements
+
+### Evangelical Free Church of America
+
+The EFCA Statement of Faith (2019) is reproduced from
+https://www.efca.org/sof. EFCA states that the statement is in the public
+domain, that there is no copyright, and asks users to cite the complete text
+and identify any edits. Open Christian Data preserves the official wording.
+
+### National Association of Evangelicals
+
+The current official NAE Statement of Faith web form, captured in 2026, is
+reproduced from https://www.nae.org/statement-of-faith/. The NAE first adopted
+a Statement of Faith in 1943; Open Christian Data does not claim that the
+captured wording is textually identical to the 1943 form. NAE states that it
+intentionally did not copyright the statement so it may be used widely.
+Required attribution:
+
+> As adopted by the National Association of Evangelicals.
+
+### Lausanne Movement
+
+The Seoul Statement remains all rights reserved. Open Christian Data does not
+reproduce the full text. The related record is an original research summary of
+its teaching on baptism and the Lord's Supper and links to the official source:
+https://lausanne.org/statement/the-seoul-statement.

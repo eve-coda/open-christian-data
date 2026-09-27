@@ -1,0 +1,36 @@
+{
+  "id": "lausanne-seoul-statement-2024-sacraments-summary",
+  "title": "Research Summary of the Lausanne Seoul Statement (2024): Baptism and the Lord's Supper",
+  "author": "Open Christian Data contributors",
+  "original_publication_year": 2026,
+  "tradition": [
+    "evangelical",
+    "free-church"
+  ],
+  "tradition_notes": "Editorial research summary of sacramental teaching in a global evangelical statement. Lausanne is a movement, not a denomination, and the source also draws on broader catholic language about the church and sacraments.",
+  "license": "cc0-1.0",
+  "completeness": "partial",
+  "source": {
+    "name": "Lausanne Movement",
+    "url": "https://lausanne.org/statement/the-seoul-statement",
+    "format": "HTML",
+    "edition": "Official English HTML released September 22, 2024",
+    "license": "All rights reserved",
+    "license_notes": "No statement-specific public reproduction grant was found. The full source text is excluded from this public dataset; this record contains only an original research summary without source quotations.",
+    "download_date": "2026-09-27",
+    "source_hash": "sha256:57e7080e490dd061dd8518f82d8ed621797420d825b365497b86a2b895b9cc01"
+  },
+  "processing": {
+    "method": "automated-with-review",
+    "date": "2026-09-27",
+    "notes": "The parser checks three sacramental source anchors, then emits a short original summary. It does not reproduce the 97-point Seoul Statement or its four endnotes."
+  },
+  "schema_type": "doctrinal_document",
+  "document_kind": "declaration",
+  "output_file": "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json",
+  "raw_file": "raw/lausanne.org/lausanne-seoul-statement-2024.html",
+  "parser": "build/parsers/modern_evangelical_statements.py",
+  "stats": {
+    "unit_count": 1
+  }
+}

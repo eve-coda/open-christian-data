@@ -43,6 +43,26 @@ available. Its formatting and other site material are not being presented as
 public domain merely because the underlying historic works are public domain.
 See the [CCEL permission and attribution note](sources/ccel-permission.md).
 
+### Modern evangelical statements
+
+- The [EFCA Statement of Faith (2019)](https://www.efca.org/sof) is
+  reproduced from the official English page. EFCA states that the statement is
+  in the public domain, says there is no copyright, and asks users to cite the
+  complete text and identify any edits. This dataset preserves the official
+  wording without editorial alteration.
+- The [NAE Statement of Faith](https://www.nae.org/statement-of-faith/) is
+  reproduced from the current official seven-paragraph web form captured in
+  2026. The NAE first adopted a Statement of Faith in 1943; this dataset does
+  not claim that the current wording is textually identical to the 1943 form.
+  NAE states that it intentionally did not copyright the statement so that it
+  may be used widely. Required attribution: **“As adopted by the National
+  Association of Evangelicals.”**
+- The [Lausanne Seoul Statement](https://lausanne.org/statement/the-seoul-statement)
+  remains all rights reserved. Open Christian Data does not reproduce its full
+  text. The dataset contains only a short, original research summary of its
+  teaching on baptism and the Lord's Supper, with the official page retained as
+  provenance.
+
 ## Principal source projects
 
 | Source                                                                                                              | Material represented in v0.2.0                                                                 | Rights and credit notes                                                                                                                                                                   |

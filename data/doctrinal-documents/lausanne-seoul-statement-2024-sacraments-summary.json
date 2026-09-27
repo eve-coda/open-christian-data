@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "lausanne-seoul-statement-2024-sacraments-summary",
+    "title": "Research Summary of the Lausanne Seoul Statement (2024): Baptism and the Lord's Supper",
+    "author": "Open Christian Data contributors",
+    "original_publication_year": 2026,
+    "language": "en",
+    "tradition": [
+      "evangelical",
+      "free-church"
+    ],
+    "tradition_notes": "Editorial research summary of sacramental teaching in a global evangelical statement. Lausanne is a movement, not a denomination, and the source also draws on broader catholic language about the church and sacraments.",
+    "license": "cc0-1.0",
+    "schema_type": "doctrinal_document",
+    "schema_version": "2.1.0",
+    "completeness": "partial",
+    "provenance": {
+      "source_url": "https://lausanne.org/statement/the-seoul-statement",
+      "source_format": "HTML",
+      "source_edition": "Official English HTML released September 22, 2024",
+      "download_date": "2026-09-27",
+      "source_hash": "sha256:57e7080e490dd061dd8518f82d8ed621797420d825b365497b86a2b895b9cc01",
+      "processing_method": "automated-with-review",
+      "processing_script_version": "build/parsers/modern_evangelical_statements.py@v1.0.0",
+      "processing_date": "2026-09-27",
+      "notes": "The parser checks three sacramental source anchors, then emits a short original summary. It does not reproduce the 97-point Seoul Statement or its four endnotes."
+    }
+  },
+  "data": {
+    "document_id": "lausanne-seoul-statement-2024-sacraments-summary",
+    "document_kind": "declaration",
+    "units": [
+      {
+        "unit_type": "section",
+        "number": "1",
+        "title": "Baptism and the Lord's Supper",
+        "content": "The Seoul Statement describes Christian baptism as a sign of God's grace, a public declaration of allegiance to Christ, and identification with the church. It treats Baptism and the Lord's Supper as practices through which the gathered church receives and perceives God's grace. It also calls churches to rehearse the gospel regularly through baptism and the Lord's Table."
+      }
+    ]
+  }
+}

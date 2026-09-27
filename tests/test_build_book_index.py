@@ -64,5 +64,5 @@ def test_collect_entries_classifies_topical_schema_by_schema_type(monkeypatch, t
 def test_live_index_entries_match_authoritative_work_units() -> None:
     entries = build_book_index.collect_entries()
 
-    assert len(entries) == 402
+    assert len(entries) == 405
     assert sum(entry["title"] == "The Catholic Encyclopedia" for entry in entries) == 1

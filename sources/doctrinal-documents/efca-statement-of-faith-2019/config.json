@@ -1,0 +1,36 @@
+{
+  "id": "efca-statement-of-faith-2019",
+  "title": "EFCA Statement of Faith (2019)",
+  "author": "Evangelical Free Church of America",
+  "original_publication_year": 2019,
+  "tradition": [
+    "evangelical",
+    "free-church"
+  ],
+  "tradition_notes": "Current statement of the Evangelical Free Church of America, an association of autonomous evangelical churches.",
+  "license": "public-domain",
+  "completeness": "full",
+  "source": {
+    "name": "Evangelical Free Church of America",
+    "url": "https://www.efca.org/sof",
+    "format": "HTML",
+    "edition": "Current EFCA Statement of Faith adopted June 19, 2019; official English HTML",
+    "license": "Public domain",
+    "license_notes": "EFCA states that the Statement of Faith is in the public domain, that there is no copyright, and asks users to cite the full text and identify edits.",
+    "download_date": "2026-09-27",
+    "source_hash": "sha256:2a4c58acb7d5c0c4d749f6a4b103025bc53cb0e3da185c794b0ad9eb80a4a31c"
+  },
+  "processing": {
+    "method": "automated-with-review",
+    "date": "2026-09-27",
+    "notes": "Parsed from the official article list. All ten articles are present; page navigation, usage notes, and download links are excluded."
+  },
+  "schema_type": "doctrinal_document",
+  "document_kind": "declaration",
+  "output_file": "data/doctrinal-documents/efca-statement-of-faith-2019.json",
+  "raw_file": "raw/efca.org/efca-statement-of-faith-2019.html",
+  "parser": "build/parsers/modern_evangelical_statements.py",
+  "stats": {
+    "unit_count": 10
+  }
+}

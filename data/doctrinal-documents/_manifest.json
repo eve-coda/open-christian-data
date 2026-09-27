@@ -39,30 +39,6 @@
       "file": "chalcedonian-definition.json"
     },
     {
-      "id": "christ-hymn-of-colossians",
-      "title": "Christ Hymn of Colossians",
-      "document_kind": "creed",
-      "file": "christ-hymn-of-colossians.json"
-    },
-    {
-      "id": "christ-hymn-of-philippians",
-      "title": "Christ Hymn of Philippians",
-      "document_kind": "creed",
-      "file": "christ-hymn-of-philippians.json"
-    },
-    {
-      "id": "christian-shema",
-      "title": "Christian Shema",
-      "document_kind": "creed",
-      "file": "christian-shema.json"
-    },
-    {
-      "id": "confession-of-peter",
-      "title": "Confession of Peter",
-      "document_kind": "creed",
-      "file": "confession-of-peter.json"
-    },
-    {
       "id": "consensus-tigurinus",
       "title": "Consensus Tigurinus",
       "document_kind": "declaration",
@@ -85,6 +61,12 @@
       "title": "The Directory for the Publick Worship of God",
       "document_kind": "directory",
       "file": "directory-for-publick-worship.json"
+    },
+    {
+      "id": "efca-statement-of-faith-2019",
+      "title": "EFCA Statement of Faith (2019)",
+      "document_kind": "declaration",
+      "file": "efca-statement-of-faith-2019.json"
     },
     {
       "id": "first-confession-of-basel",
@@ -135,10 +117,22 @@
       "file": "irenaeus-rule-of-faith.json"
     },
     {
+      "id": "lausanne-seoul-statement-2024-sacraments-summary",
+      "title": "Research Summary of the Lausanne Seoul Statement (2024): Baptism and the Lord's Supper",
+      "document_kind": "declaration",
+      "file": "lausanne-seoul-statement-2024-sacraments-summary.json"
+    },
+    {
       "id": "london-baptist-confession-1689",
       "title": "1689 London Baptist Confession",
       "document_kind": "confession",
       "file": "london-baptist-confession-1689.json"
+    },
+    {
+      "id": "nae-statement-of-faith-current",
+      "title": "NAE Statement of Faith (Current Official Form)",
+      "document_kind": "declaration",
+      "file": "nae-statement-of-faith-current.json"
     },
     {
       "id": "nicene-creed",
@@ -153,6 +147,12 @@
       "file": "savoy-declaration.json"
     },
     {
+      "id": "schleitheim-confession-1527",
+      "title": "The Schleitheim Confession",
+      "document_kind": "confession",
+      "file": "schleitheim-confession-1527.json"
+    },
+    {
       "id": "scots-confession",
       "title": "Scots Confession",
       "document_kind": "confession",
@@ -163,12 +163,6 @@
       "title": "Second Helvetic Confession",
       "document_kind": "confession",
       "file": "second-helvetic-confession.json"
-    },
-    {
-      "id": "shema-yisrael",
-      "title": "Shema Yisrael",
-      "document_kind": "creed",
-      "file": "shema-yisrael.json"
     },
     {
       "id": "solemn-league-and-covenant",
@@ -226,7 +220,7 @@
     }
   ],
   "stats": {
-    "total_documents": 37
+    "total_documents": 36
   },
-  "last_updated": "2026-04-27"
+  "last_updated": "2026-09-27"
 }
