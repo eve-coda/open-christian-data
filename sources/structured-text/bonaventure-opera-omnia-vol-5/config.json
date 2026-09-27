@@ -1,0 +1,29 @@
+{
+  "resource_id": "bonaventure-opera-omnia-vol-5",
+  "title": "Bonaventure, Opera Omnia, Vol. V",
+  "author": "Bonaventure",
+  "contributors": [
+    {
+      "name": "Collegium S. Bonaventura",
+      "role": "editor"
+    }
+  ],
+  "original_publication_year": 1274,
+  "language": "la",
+  "original_language": "la",
+  "tradition": [
+    "catholic"
+  ],
+  "raw_filename": "bonaventure-opera-vol5-1891.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://archive.org/details/doctorisseraphic05bona",
+  "source_format": "machine OCR text",
+  "source_edition": "Quaracchi critical Latin edition, Vol. V, 1891",
+  "download_date": "2026-09-17",
+  "processing_method": "ocr",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Source-complete scan coverage; 'full' does not assert textual accuracy. This is uncorrected machine OCR with residual recognition errors, running headers, pagination, and front/back matter. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. Consult the linked scan for textual verification.",
+  "source_hash": "sha256:9ba2eecaf747a4fe180a95df21cb536cd3ca8550921de9a4d357138a1aaabc12"
+}

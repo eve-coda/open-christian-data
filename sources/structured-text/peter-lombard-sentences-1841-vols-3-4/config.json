@@ -1,0 +1,24 @@
+{
+  "resource_id": "peter-lombard-sentences-1841-vols-3-4",
+  "title": "Peter Lombard, Sentences, Books III-IV",
+  "author": "Peter Lombard",
+  "contributors": [],
+  "original_publication_year": 1152,
+  "language": "la",
+  "original_language": "la",
+  "tradition": [
+    "catholic"
+  ],
+  "raw_filename": "peter-lombard-1841-vol3-4.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://archive.org/details/petrilombardisen03pete",
+  "source_format": "machine OCR text",
+  "source_edition": "Migne Latin edition, 1841",
+  "download_date": "2026-09-17",
+  "processing_method": "ocr",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Source-complete scan coverage; 'full' does not assert textual accuracy. This is uncorrected machine OCR with residual recognition errors, running headers, pagination, and front/back matter. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. Consult the linked scan for textual verification.",
+  "source_hash": "sha256:487d2dc00ada5399f65e0f0570d71c8d5edfb985d500a1a217585b718f1a6a99"
+}

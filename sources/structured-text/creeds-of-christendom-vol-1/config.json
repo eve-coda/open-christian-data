@@ -6,10 +6,20 @@
   "author_death_year": 1893,
   "contributors": [
     {
-      "name": "Christian Classics Ethereal Library (digital edition)"
+      "name": "David S. Schaff",
+      "role": "reviser"
+    },
+    {
+      "name": "Christian Classics Ethereal Library",
+      "role": "transcriber"
+    },
+    {
+      "name": "Charles Bowen",
+      "role": "editor"
     }
   ],
   "original_publication_year": 1877,
+  "edition": "Sixth edition, revised and enlarged (1931)",
   "language": "en",
   "original_language": "en",
   "tradition": [
@@ -22,6 +32,10 @@
   "work_kind": "church-history",
   "source_url": "https://www.ccel.org/ccel/schaff/creeds1.xml",
   "source_format": "ThML XML",
-  "source_edition": "Christian Classics Ethereal Library (CCEL) ThML edition; original New York: Harper & Brothers, 1877.",
-  "source_hash": "sha256:450960af42f600534f15429546e0a00696a9fbfc4ea32df55545ef5a02c491e7"
+  "source_edition": "Philip Schaff, The Creeds of Christendom, with a History and Critical Notes, sixth edition, revised and enlarged by David S. Schaff (1931), Vol. I; original three-volume edition published in 1877; Christian Classics Ethereal Library (CCEL) ThML transcription",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:450960af42f600534f15429546e0a00696a9fbfc4ea32df55545ef5a02c491e7",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/ccel_creeds_of_christendom.py@v2.0.0",
+  "processing_date": "2026-09-17"
 }

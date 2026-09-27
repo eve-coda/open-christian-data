@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "writer": "tool",
+  "writer_version": "build/scripts/register_primary_source_expansion_authors.py@v1.0.0",
+  "writer_identity": "primary_source_expansion_author_registry",
+  "run_id": "ef2ca1d32bb846329a383ce6be5f3893",
+  "started_at": "2026-09-27T21:08:55.454401+00:00",
+  "data_paths": [
+    "data/authors/registry.json"
+  ],
+  "checksums": {
+    "data/authors/registry.json": {
+      "before_sha256": "16258d781d357b37fc62d7d9dc77e29c2c5ee5d7b52469bc230571feaf2b115d",
+      "after_sha256": "f02282baa370765d3e7d6f6324c7b8fcf02b9a14864f68d37530aa7ec4f64d22"
+    }
+  },
+  "expected_delta_counts": {
+    "data/authors/registry.json": {
+      "entries_changed": 15,
+      "fields_changed": 84
+    }
+  },
+  "allowed_field_paths": [
+    "/authors"
+  ],
+  "partial_completion_policy": "all_or_nothing",
+  "renames": []
+}

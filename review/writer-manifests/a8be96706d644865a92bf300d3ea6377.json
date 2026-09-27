@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "writer": "parser",
+  "writer_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "writer_identity": "public_domain_expansion_parser",
+  "run_id": "a8be96706d644865a92bf300d3ea6377",
+  "started_at": "2026-09-27T21:08:54.989418+00:00",
+  "data_paths": [
+    "data/structured-text/apostolic-tradition-easton-1934.json",
+    "data/structured-text/bonaventure-opera-omnia-vol-5.json",
+    "data/structured-text/cloud-of-unknowing.json",
+    "data/structured-text/duns-scotus-opera-omnia-vol-8.json",
+    "data/structured-text/julian-revelations-divine-love.json",
+    "data/structured-text/peter-lombard-sentences-1841-vols-1-2.json",
+    "data/structured-text/peter-lombard-sentences-1841-vols-3-4.json",
+    "data/structured-text/roman-catechism-1829.json",
+    "data/structured-text/rule-of-benedict-1906.json"
+  ],
+  "checksums": {
+    "data/structured-text/apostolic-tradition-easton-1934.json": {
+      "before_sha256": null,
+      "after_sha256": "a7cbca13925523d49f6372d474b6a26486641d376ecc8d0f6c3de1a7b8d7a28f"
+    },
+    "data/structured-text/bonaventure-opera-omnia-vol-5.json": {
+      "before_sha256": null,
+      "after_sha256": "26891a58db06e0e85e30fdb0c1dd9c3d403178569508a4ec6f67db11a4671623"
+    },
+    "data/structured-text/cloud-of-unknowing.json": {
+      "before_sha256": null,
+      "after_sha256": "9f2763d2824a6fca577f15c0f4e4e9bd05e5e41eb475185c6d93a9828c8f265c"
+    },
+    "data/structured-text/duns-scotus-opera-omnia-vol-8.json": {
+      "before_sha256": null,
+      "after_sha256": "0da4affb3a8fc7dfc4bfaa9f8e598283bcd5621cef3611137016449b3d0fe268"
+    },
+    "data/structured-text/julian-revelations-divine-love.json": {
+      "before_sha256": null,
+      "after_sha256": "8315649a1377a77b45d5f5cdbc4892bfd024503c0e4fe9c13cbb986b5c5b2c22"
+    },
+    "data/structured-text/peter-lombard-sentences-1841-vols-1-2.json": {
+      "before_sha256": null,
+      "after_sha256": "20558274e103b055e65e62497db47aafd8d434ac30809166d820bc39cea9a292"
+    },
+    "data/structured-text/peter-lombard-sentences-1841-vols-3-4.json": {
+      "before_sha256": null,
+      "after_sha256": "2e57afe53b45892703488d6e9c6985acc628efda6f68717d2f277e352680c5d8"
+    },
+    "data/structured-text/roman-catechism-1829.json": {
+      "before_sha256": null,
+      "after_sha256": "6884f022dbf694f6bc6abcc05064788f7481b7964a81c3fe4b66d9002eca2feb"
+    },
+    "data/structured-text/rule-of-benedict-1906.json": {
+      "before_sha256": null,
+      "after_sha256": "bb53b30889a53e296195ebaa5870f5324a470bb8172ca296d0271348724417b4"
+    }
+  },
+  "expected_delta_counts": {
+    "data/structured-text/apostolic-tradition-easton-1934.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/bonaventure-opera-omnia-vol-5.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/cloud-of-unknowing.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/duns-scotus-opera-omnia-vol-8.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/julian-revelations-divine-love.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/peter-lombard-sentences-1841-vols-1-2.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/peter-lombard-sentences-1841-vols-3-4.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/roman-catechism-1829.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/structured-text/rule-of-benedict-1906.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    }
+  },
+  "allowed_field_paths": [
+    "/meta",
+    "/data"
+  ],
+  "partial_completion_policy": "all_or_nothing",
+  "renames": []
+}

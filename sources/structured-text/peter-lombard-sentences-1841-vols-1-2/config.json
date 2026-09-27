@@ -1,0 +1,24 @@
+{
+  "resource_id": "peter-lombard-sentences-1841-vols-1-2",
+  "title": "Peter Lombard, Sentences, Books I-II",
+  "author": "Peter Lombard",
+  "contributors": [],
+  "original_publication_year": 1152,
+  "language": "la",
+  "original_language": "la",
+  "tradition": [
+    "catholic"
+  ],
+  "raw_filename": "peter-lombard-1841-vol1-2.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://archive.org/details/petrilombardisen01pete",
+  "source_format": "machine OCR text",
+  "source_edition": "Migne Latin edition, 1841",
+  "download_date": "2026-09-17",
+  "processing_method": "ocr",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Source-complete scan coverage; 'full' does not assert textual accuracy. This is uncorrected machine OCR with residual recognition errors, running headers, pagination, and front/back matter. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. Consult the linked scan for textual verification.",
+  "source_hash": "sha256:338006e08bcfa94857fde12b383cd4ccb5190d156b853d66d1495e1613adf63a"
+}

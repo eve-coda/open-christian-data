@@ -1,0 +1,16 @@
+{
+  "resource_id": "power-primacy-pope",
+  "title": "Treatise on the Power and Primacy of the Pope",
+  "author": "Philipp Melanchthon",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://www.projectwittenberg.org/etext/boc/tr/primacy.asc",
+  "source_format": "plain text",
+  "source_edition": "Concordia Triglotta: The Symbolical Books of the Evangelical Lutheran Church, St. Louis: Concordia Publishing House, 1921; F. Bente and W. H. T. Dau translation",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:5b81228df4fa834350ce7ddae9189a0d6d155a695407803f8a425511207bd7e6",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/project_wittenberg_boc.py@v1.0.1",
+  "processing_date": "2026-09-17",
+  "notes": "Project Wittenberg ASCII parts preserved as ordered sections; repeated distribution/contact boilerplate removed from searchable content. This text was converted to ascii format for Project Wittenberg by Allen Mulvey and is in the public domain. You may freely distribute, copy or print this text. Please direct any comments or suggestions to: Rev. Robert E. Smith of the Walther Library at Concordia Theological Seminary."
+}

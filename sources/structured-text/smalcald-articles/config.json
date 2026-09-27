@@ -1,0 +1,16 @@
+{
+  "resource_id": "smalcald-articles",
+  "title": "The Smalcald Articles",
+  "author": "Martin Luther",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://www.projectwittenberg.org/etext/boc/sa/",
+  "source_format": "plain text",
+  "source_edition": "Concordia Triglotta: The Symbolical Books of the Evangelical Lutheran Church, St. Louis: Concordia Publishing House, 1921; F. Bente and W. H. T. Dau translation",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:0401dee3c7b49e9a6412e3bfc4db016912b7e21ab5ca7593973a6528f0f0b06d",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/project_wittenberg_boc.py@v1.0.1",
+  "processing_date": "2026-09-17",
+  "notes": "Project Wittenberg ASCII parts preserved as ordered sections; repeated distribution/contact boilerplate removed from searchable content. This text was converted to ascii format for Project Wittenberg by Allen Mulvey and is in the public domain. You may freely distribute, copy or print this text. Please direct any comments or suggestions to: Rev. Robert E. Smith of the Walther Library at Concordia Theological Seminary."
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "writer": "parser",
+  "writer_version": "build/parsers/schaff_ecumenical_creeds.py@v1.0.0",
+  "writer_identity": "schaff_ecumenical_creeds_parser",
+  "run_id": "aef2453db8114f0f825f2ab55bd091da",
+  "started_at": "2026-09-27T21:08:46.294736+00:00",
+  "data_paths": [
+    "data/doctrinal-documents/_manifest.json",
+    "data/doctrinal-documents/nicene-creed-325.json",
+    "data/doctrinal-documents/nicene-creed-anglican-bcp-1662.json",
+    "data/doctrinal-documents/nicene-creed.json"
+  ],
+  "checksums": {
+    "data/doctrinal-documents/nicene-creed.json": {
+      "before_sha256": "6436c8284d2efd3dfa77f343ba3496d786d31f9c79bbcb019a64f19ac0c16798",
+      "after_sha256": "b0e2917ead604dd49c0f19f4335abf9a61dbfaf9b0cc473765b1225abf359bd2"
+    },
+    "data/doctrinal-documents/nicene-creed-325.json": {
+      "before_sha256": null,
+      "after_sha256": "fb1ba593da4040ed1559135eb7d6c20e4b44bcf0124e9442d467a052144369a7"
+    },
+    "data/doctrinal-documents/nicene-creed-anglican-bcp-1662.json": {
+      "before_sha256": null,
+      "after_sha256": "3774c87fdfb00f3fb5d4a84522ca85795661b7e5303e28d778e40fc91571ac55"
+    },
+    "data/doctrinal-documents/_manifest.json": {
+      "before_sha256": "d5cd46cb9ada3b24dba204ab812b7596dda0f24060f1d2a4c0a0a96efe40e533",
+      "after_sha256": "34ce83f55347763318eb2fb11ea49547fff979366439d493f8884cb933cf7f66"
+    }
+  },
+  "expected_delta_counts": {
+    "data/doctrinal-documents/nicene-creed.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/doctrinal-documents/nicene-creed-325.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/doctrinal-documents/nicene-creed-anglican-bcp-1662.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    },
+    "data/doctrinal-documents/_manifest.json": {
+      "entries_changed": 3,
+      "fields_changed": 9
+    }
+  },
+  "allowed_field_paths": [
+    "/meta",
+    "/data",
+    "/documents",
+    "/stats",
+    "/last_updated"
+  ],
+  "partial_completion_policy": "all_or_nothing",
+  "renames": []
+}

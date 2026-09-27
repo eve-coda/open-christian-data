@@ -1,0 +1,16 @@
+{
+  "resource_id": "apology-augsburg-confession",
+  "title": "Apology of the Augsburg Confession",
+  "author": "Philipp Melanchthon",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://www.projectwittenberg.org/etext/boc/ap/",
+  "source_format": "plain text",
+  "source_edition": "Concordia Triglotta: The Symbolical Books of the Evangelical Lutheran Church, St. Louis: Concordia Publishing House, 1921; F. Bente and W. H. T. Dau translation",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:de7dd17379e701602f519c4049c13941739707e245a726748acad51301db3f95",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/project_wittenberg_boc.py@v1.0.1",
+  "processing_date": "2026-09-17",
+  "notes": "Project Wittenberg ASCII parts preserved as ordered sections; repeated distribution/contact boilerplate removed from searchable content. This text was converted to ascii format for Project Wittenberg by Allen Mulvey and is in the public domain. You may freely distribute, copy or print this text. Please direct any comments or suggestions to: Rev. Robert E. Smith of the Walther Library at Concordia Theological Seminary."
+}

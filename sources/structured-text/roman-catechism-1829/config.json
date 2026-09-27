@@ -1,0 +1,29 @@
+{
+  "resource_id": "roman-catechism-1829",
+  "title": "The Catechism of the Council of Trent",
+  "author": "Council of Trent",
+  "contributors": [
+    {
+      "name": "Jeremiah Donovan",
+      "role": "translator"
+    }
+  ],
+  "original_publication_year": 1566,
+  "language": "en",
+  "original_language": "la",
+  "tradition": [
+    "catholic"
+  ],
+  "raw_filename": "roman-catechism-1829.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://archive.org/details/CatechismOfTheCouncilOfTrent1829",
+  "source_format": "machine OCR text",
+  "source_edition": "The 1829 English translation by Jeremiah Donovan",
+  "download_date": "2026-09-17",
+  "processing_method": "ocr",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Source-complete scan coverage; 'full' does not assert textual accuracy. This is uncorrected machine OCR with residual recognition errors, running headers, pagination, and front/back matter. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. Consult the linked scan for textual verification.",
+  "source_hash": "sha256:4f33df6d137f2b64c985354f3423cebeb3e68ae2407a61d931a0582831018c60"
+}

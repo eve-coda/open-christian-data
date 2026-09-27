@@ -1,0 +1,33 @@
+{
+  "resource_id": "rule-of-benedict-1906",
+  "title": "The Rule of Saint Benedict",
+  "author": "Benedict of Nursia",
+  "contributors": [
+    {
+      "name": "Oswald Hunter Blair",
+      "role": "translator"
+    },
+    {
+      "name": "Oswald Hunter Blair",
+      "role": "editor"
+    }
+  ],
+  "original_publication_year": 530,
+  "language": "en",
+  "original_language": "la",
+  "tradition": [
+    "monastic"
+  ],
+  "raw_filename": "rule-benedict-1906.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://archive.org/details/ruleofstbenedict00bene_1",
+  "source_format": "machine OCR text",
+  "source_edition": "Fort Augustus Abbey Press English edition, 1906",
+  "download_date": "2026-09-17",
+  "processing_method": "ocr",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Source-complete scan coverage; 'full' does not assert textual accuracy. This is uncorrected machine OCR with residual recognition errors, running headers, pagination, and front/back matter. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. Consult the linked scan for textual verification.",
+  "source_hash": "sha256:b8d7c1329154e1887fb3ad3f5fdf7c6eef63f8321bd15958be381fcea80dc7b9"
+}

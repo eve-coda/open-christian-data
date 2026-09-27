@@ -65,3 +65,43 @@ def test_allow_case_all_registered_identities_pass():
             load_manifest=lambda p, mb=manifest_body: mb if p.startswith("review/writer-manifests/") else None,
         )
         assert exit_code == 0, f"Identity {identity!r} should pass gate but blocked: {messages}"
+
+
+def test_gate_rejects_duplicate_receipt_coverage_for_one_data_path():
+    from build.tools.check_writer_manifest_gate import evaluate_gate
+
+    first = _manifest("ia_schaff_herzog_parser", "first")
+    second = _manifest("ia_schaff_herzog_parser", "second")
+    manifests = {
+        "review/writer-manifests/first.json": first,
+        "review/writer-manifests/second.json": second,
+    }
+    staged = ["data/reference/schaff-herzog-encyclopedia.json", *manifests]
+
+    exit_code, messages = evaluate_gate(staged, load_manifest=manifests.get)
+
+    assert exit_code == 1
+    assert any("exactly one" in message for message in messages)
+
+
+def test_gate_rejects_noop_receipt_for_a_staged_data_path():
+    from build.tools.check_writer_manifest_gate import evaluate_gate
+
+    manifest = _manifest("ia_schaff_herzog_parser", "noop")
+    data_path = manifest["data_paths"][0]
+    manifest["checksums"][data_path]["after_sha256"] = manifest["checksums"][data_path][
+        "before_sha256"
+    ]
+    manifest["expected_delta_counts"][data_path] = {
+        "entries_changed": 0,
+        "fields_changed": 0,
+    }
+    manifest_path = "review/writer-manifests/noop.json"
+
+    exit_code, messages = evaluate_gate(
+        [data_path, manifest_path],
+        load_manifest=lambda path: manifest if path == manifest_path else None,
+    )
+
+    assert exit_code == 1
+    assert any("no-op" in message for message in messages)

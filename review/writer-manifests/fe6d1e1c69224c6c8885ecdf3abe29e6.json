@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "writer": "parser",
+  "writer_version": "build/parsers/ccel_creeds_of_christendom.py@v2.0.0",
+  "writer_identity": "ccel_creeds_of_christendom_parser",
+  "run_id": "fe6d1e1c69224c6c8885ecdf3abe29e6",
+  "started_at": "2026-09-27T21:08:45.026722+00:00",
+  "data_paths": [
+    "data/structured-text/creeds-of-christendom-vol-3.json"
+  ],
+  "checksums": {
+    "data/structured-text/creeds-of-christendom-vol-3.json": {
+      "before_sha256": null,
+      "after_sha256": "7993d1d659cba1da9289506b3ceecf95a4d4e1097eed762985d6eb7eec5d2bb0"
+    }
+  },
+  "expected_delta_counts": {
+    "data/structured-text/creeds-of-christendom-vol-3.json": {
+      "entries_changed": 1,
+      "fields_changed": 2
+    }
+  },
+  "allowed_field_paths": [
+    "/meta",
+    "/data"
+  ],
+  "partial_completion_policy": "all_or_nothing",
+  "renames": []
+}

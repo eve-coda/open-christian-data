@@ -1,0 +1,17 @@
+{
+  "resource_id": "nicene-creed-anglican-bcp-1662",
+  "title": "Niceno-Constantinopolitan Creed: Anglican Book of Common Prayer (1662), Schaff Protestant Received Text",
+  "author": "Church of England",
+  "original_publication_year": 1662,
+  "license": "public-domain",
+  "schema_type": "doctrinal_document",
+  "source_url": "https://www.ccel.org/ccel/schaff/creeds2.xml",
+  "source_format": "ThML XML",
+  "source_edition": "Anglican Book of Common Prayer (1662), Nicene Creed; Protestant received-text column in Philip Schaff, The Creeds of Christendom, sixth edition, revised and enlarged by David S. Schaff; CCEL ThML transcription",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:412c952ff096d7e09a1f2d9e838e9652f0fedcbf7e8d6f3999c27e69ab69091e",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/schaff_ecumenical_creeds.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Protestant received-text column from the Anglican Book of Common Prayer (1662), as printed by Schaff. Schaff states that Western additions are enclosed in brackets; those editorial brackets are preserved exactly, including [God of God], [essence], [I believe], and [and the Son]."
+}

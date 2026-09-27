@@ -1,0 +1,17 @@
+{
+  "resource_id": "nicene-creed-325",
+  "title": "Nicene Creed (325)",
+  "author": "First Council of Nicaea",
+  "original_publication_year": 325,
+  "license": "public-domain",
+  "schema_type": "doctrinal_document",
+  "source_url": "https://www.ccel.org/ccel/schaff/creeds1.xml",
+  "source_format": "ThML XML",
+  "source_edition": "Philip Schaff, The Creeds of Christendom, sixth edition, revised and enlarged by David S. Schaff; CCEL ThML transcription",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:450960af42f600534f15429546e0a00696a9fbfc4ea32df55545ef5a02c491e7",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/schaff_ecumenical_creeds.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "English text extracted from Schaff's parallel presentation. This record deliberately distinguishes the 325, 381, and later Western forms."
+}

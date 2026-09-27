@@ -1,0 +1,41 @@
+{
+  "resource_id": "creeds-of-christendom-vol-3",
+  "title": "The Creeds of Christendom, Vol. III: The Evangelical Protestant Creeds",
+  "author": "Philip Schaff",
+  "author_birth_year": 1819,
+  "author_death_year": 1893,
+  "contributors": [
+    {
+      "name": "David S. Schaff",
+      "role": "reviser"
+    },
+    {
+      "name": "Christian Classics Ethereal Library",
+      "role": "transcriber"
+    },
+    {
+      "name": "Charles Bowen",
+      "role": "editor"
+    }
+  ],
+  "original_publication_year": 1877,
+  "edition": "Sixth edition, revised and enlarged (1931)",
+  "language": "en",
+  "original_language": "en",
+  "tradition": [
+    "ecumenical"
+  ],
+  "era": "modern",
+  "audience": "scholarly",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "work_kind": "theological-work",
+  "source_url": "https://www.ccel.org/ccel/schaff/creeds3.xml",
+  "source_format": "ThML XML",
+  "source_edition": "Philip Schaff, The Creeds of Christendom, with a History and Critical Notes, sixth edition, revised and enlarged by David S. Schaff (1931), Vol. III; original three-volume edition published in 1877; Christian Classics Ethereal Library (CCEL) ThML transcription",
+  "download_date": "2026-09-17",
+  "source_hash": "sha256:756adf1ddd466d237221c76b99d25d55cab7e83d08914f28a289c3b90dccddf3",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/ccel_creeds_of_christendom.py@v2.0.0",
+  "processing_date": "2026-09-17"
+}

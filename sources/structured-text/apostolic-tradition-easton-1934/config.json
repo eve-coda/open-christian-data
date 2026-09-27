@@ -1,0 +1,29 @@
+{
+  "resource_id": "apostolic-tradition-easton-1934",
+  "title": "The Apostolic Tradition of Hippolytus",
+  "author": "Hippolytus of Rome (attributed)",
+  "contributors": [
+    {
+      "name": "Burton Scott Easton",
+      "role": "translator"
+    }
+  ],
+  "original_publication_year": 215,
+  "language": "en",
+  "original_language": "grc",
+  "tradition": [
+    "patristic"
+  ],
+  "raw_filename": "apostolic-tradition-easton-pg61614.txt",
+  "license": "public-domain",
+  "schema_type": "structured_text",
+  "source_url": "https://www.gutenberg.org/ebooks/61614",
+  "source_format": "plain text",
+  "source_edition": "Burton Scott Easton English translation, Cambridge University Press, 1934; Project Gutenberg eBook 61614",
+  "download_date": "2026-09-17",
+  "processing_method": "automated",
+  "processing_script_version": "build/parsers/public_domain_expansion.py@v1.0.0",
+  "processing_date": "2026-09-17",
+  "notes": "Project Gutenberg frame removed. Automated paragraph-preserving passage chunking uses an approximately 6,000-character ceiling; generated Passage labels are search aids, not source headings. This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook. Downstream users outside the United States must check local law.",
+  "source_hash": "sha256:13014bd5ade7c0b5fe9710b5be0c53130bd293b8448e02ca1b9b26ddf52eb028"
+}
