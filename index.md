@@ -1,6 +1,6 @@
 # Open Christian Data -- Work Index
 
-**402 works** across 12 categories.
+**405 works** across 12 categories.
 
 | Category | Works |
 |---|---|
@@ -9,7 +9,7 @@
 | Church Fathers | 1 |
 | Commentaries | 34 |
 | Devotionals | 2 |
-| Doctrinal Documents | 33 |
+| Doctrinal Documents | 36 |
 | Hymns | 1 |
 | Prayers | 4 |
 | Dictionaries and Encyclopedias | 6 |
@@ -70,29 +70,29 @@
 | Notes on the Bible | John Wesley | 1754 | methodist, arminian, evangelical | 64 |
 | Notes on the New Testament | Albert Barnes | 1832 | presbyterian, reformed, evangelical | 27 |
 | St. Paul's Epistles to the Colossians and to Philemon | J.B. Lightfoot | 1875 | anglican | 2 |
-| The Expositor's Bible | W.H. Bennett | 1887 | nonconformist | 2 |
-| The Expositor's Bible | Marcus Dods | 1887 | presbyterian | 3 |
-| The Expositor's Bible | Frederic W. Farrar | 1887 | anglican | 3 |
-| The Expositor's Bible | William G. Blaikie | 1887 | presbyterian | 3 |
-| The Expositor's Bible | James Denney | 1887 | presbyterian | 3 |
+| The Expositor's Bible | Alexander Maclaren | 1887 | baptist | 2 |
 | The Expositor's Bible | Alfred Plummer | 1887 | anglican | 5 |
-| The Expositor's Bible | J. Rawson Lumby | 1887 | anglican |  |
+| The Expositor's Bible | Andrew Harper | 1887 | presbyterian |  |
+| The Expositor's Bible | Frederic W. Farrar | 1887 | anglican | 3 |
+| The Expositor's Bible | G.A. Chadwick | 1887 | wesleyan | 2 |
+| The Expositor's Bible | G.G. Findlay | 1887 | wesleyan | 2 |
 | The Expositor's Bible | G.T. Stokes | 1887 | anglican |  |
 | The Expositor's Bible | George Adam Smith | 1887 | presbyterian | 4 |
-| The Expositor's Bible | Alexander Maclaren | 1887 | baptist | 2 |
-| The Expositor's Bible | Andrew Harper | 1887 | presbyterian |  |
-| The Expositor's Bible | G.G. Findlay | 1887 | wesleyan | 2 |
-| The Expositor's Bible | Walter F. Adeney | 1887 | nonconformist | 5 |
-| The Expositor's Bible | G.A. Chadwick | 1887 | wesleyan | 2 |
-| The Expositor's Bible | John Skinner | 1887 | presbyterian |  |
-| The Expositor's Bible | Thomas Charles Edwards | 1887 | calvinist-methodist |  |
-| The Expositor's Bible | R.A. Watson | 1887 | presbyterian | 4 |
-| The Expositor's Bible | Samuel H. Kellogg | 1887 | presbyterian |  |
+| The Expositor's Bible | H.C.G. Moule | 1887 | evangelical |  |
 | The Expositor's Bible | Henry Burton | 1887 | baptist |  |
 | The Expositor's Bible | J. Monro Gibson | 1887 | presbyterian |  |
+| The Expositor's Bible | J. Rawson Lumby | 1887 | anglican |  |
+| The Expositor's Bible | James Denney | 1887 | presbyterian | 3 |
+| The Expositor's Bible | John Skinner | 1887 | presbyterian |  |
+| The Expositor's Bible | Marcus Dods | 1887 | presbyterian | 3 |
+| The Expositor's Bible | R.A. Watson | 1887 | presbyterian | 4 |
 | The Expositor's Bible | Robert F. Horton | 1887 | nonconformist |  |
+| The Expositor's Bible | Samuel H. Kellogg | 1887 | presbyterian |  |
+| The Expositor's Bible | Thomas Charles Edwards | 1887 | calvinist-methodist |  |
+| The Expositor's Bible | W.H. Bennett | 1887 | nonconformist | 2 |
+| The Expositor's Bible | Walter F. Adeney | 1887 | nonconformist | 5 |
+| The Expositor's Bible | William G. Blaikie | 1887 | presbyterian | 3 |
 | The Expositor's Bible | William Milligan | 1887 | presbyterian |  |
-| The Expositor's Bible | H.C.G. Moule | 1887 | evangelical |  |
 | The Treasury of David | Charles Haddon Spurgeon | 1869 | baptist, calvinist, reformed |  |
 | Word Pictures in the New Testament, Vol. I | A.T. Robertson | 1930 | baptist | 2 |
 
@@ -103,7 +103,7 @@
 | Daily Light on the Daily Path | Jonathan Bagster | 1875 | evangelical, reformed, non-denominational |
 | Morning and Evening: Daily Readings | C. H. Spurgeon | 1865 | reformed, calvinist, particular-baptist, evangelical |
 
-## Doctrinal Documents (33)
+## Doctrinal Documents (36)
 
 | Title | Author | Year | Tradition |
 |---|---|---|---|
@@ -116,6 +116,7 @@
 | Chalcedonian Definition | Council of Chalcedon | 451 | ecumenical, patristic |
 | Consensus Tigurinus | John Calvin | 1549 | reformed, continental-reformed |
 | Council of Orange | Caesarius of Arles | 529 | patristic |
+| EFCA Statement of Faith (2019) | Evangelical Free Church of America | 2019 | evangelical, free-church |
 | First Confession of Basel | John Oecolampadius | 1534 | reformed |
 | First Helvetic Confession | Heinrich Bullinger | 1536 | reformed |
 | French Confession of Faith |  | 1559 | reformed |
@@ -123,7 +124,9 @@
 | Helvetic Consensus | Johann Heidegger | 1675 | reformed |
 | Ignatius' Creed | Ignatius of Antioch | 110 | patristic |
 | Irenaeus' Rule of Faith | Irenaeus | 180 | patristic |
+| NAE Statement of Faith (Current Official Form) | National Association of Evangelicals | 1943 | evangelical, free-church |
 | Nicene Creed | First Council of Constantsnople | 381 | ecumenical |
+| Research Summary of the Lausanne Seoul Statement (2024): Baptism and the Lord's Supper | Open Christian Data contributors | 2026 | evangelical, free-church |
 | Savoy Declaration of Faith |  | 1658 | reformed, puritan, nonconformist |
 | Scots Confession | John Winram | 1560 | reformed |
 | Second Helvetic Confession | Heinrich Bullinger | 1562 | reformed |

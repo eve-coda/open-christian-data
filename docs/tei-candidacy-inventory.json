@@ -594,6 +594,9 @@
         "data/doctrinal-documents/directory-for-*.json",
         "data/doctrinal-documents/form-of-church-government.json",
         "data/doctrinal-documents/schleitheim-confession-1527.json",
+        "data/doctrinal-documents/efca-statement-of-faith-2019.json",
+        "data/doctrinal-documents/nae-statement-of-faith-current.json",
+        "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json",
         "data/doctrinal-documents/solemn-league-and-covenant.json",
         "data/doctrinal-documents/sum-of-saving-knowledge.json"
       ],
@@ -609,6 +612,32 @@
       "priority": 0,
       "owning_batch": "08",
       "notes": "The source already declares question/answer or document structure in JSON. Prior defects were metadata corrections, not representational loss."
+    },
+    {
+      "id": "modern-evangelical-statements-html",
+      "label": "Modern evangelical statements from official HTML",
+      "classification": "json-native",
+      "parsers": ["build/parsers/modern_evangelical_statements.py"],
+      "data_globs": [
+        "data/doctrinal-documents/efca-statement-of-faith-2019.json",
+        "data/doctrinal-documents/nae-statement-of-faith-current.json",
+        "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json"
+      ],
+      "config_rules": [
+        {"path_glob": "sources/doctrinal-documents/efca-statement-of-faith-2019/config.json"},
+        {"path_glob": "sources/doctrinal-documents/nae-statement-of-faith-current/config.json"},
+        {"path_glob": "sources/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary/config.json"}
+      ],
+      "evidence": [
+        "build/parsers/modern_evangelical_statements.py",
+        "docs/SOURCES.md",
+        "data/doctrinal-documents/efca-statement-of-faith-2019.json",
+        "data/doctrinal-documents/nae-statement-of-faith-current.json",
+        "data/doctrinal-documents/lausanne-seoul-statement-2024-sacraments-summary.json"
+      ],
+      "priority": 0,
+      "owning_batch": "08",
+      "notes": "The two licensed statements have simple article or paragraph structure that the doctrinal-document schema preserves losslessly. The Lausanne record is an intentionally partial original research summary because the official source remains all rights reserved; it does not claim full-text representation."
     },
     {
       "id": "westminster-html",

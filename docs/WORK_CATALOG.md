@@ -4,11 +4,11 @@ This catalog counts the public inventory by recognized title-level work units. E
 
 ## Summary
 
-- Work units: 402
-- Authors: 142
-- Source files: 1806
-- Top-level export/source records: 544956
-- Legacy HuggingFace JSONL rows: 805146
+- Work units: 405
+- Authors: 145
+- Source files: 1809
+- Top-level export/source records: 544959
+- Legacy HuggingFace JSONL rows: 805164
 - Leaf text units: 1071931
 - Work units with audit flags: 16
 
@@ -21,7 +21,7 @@ This catalog counts the public inventory by recognized title-level work units. E
 | Church Fathers | 1 |
 | Commentaries | 34 |
 | Devotionals | 2 |
-| Doctrinal Documents | 33 |
+| Doctrinal Documents | 36 |
 | Hymns | 1 |
 | Prayers | 4 |
 | Dictionaries and Encyclopedias | 6 |
@@ -397,6 +397,7 @@ This catalog counts the public inventory by recognized title-level work units. E
 | Doctrinal Documents | Chalcedonian Definition | Council of Chalcedon | 451 | 1 | 1 |  |
 | Doctrinal Documents | Consensus Tigurinus | John Calvin | 1549 | 1 | 1 |  |
 | Doctrinal Documents | Council of Orange | Caesarius of Arles | 529 | 1 | 1 |  |
+| Doctrinal Documents | EFCA Statement of Faith (2019) | Evangelical Free Church of America | 2019 | 1 | 1 |  |
 | Doctrinal Documents | First Confession of Basel | John Oecolampadius | 1534 | 1 | 1 |  |
 | Doctrinal Documents | First Helvetic Confession | Heinrich Bullinger | 1536 | 1 | 1 |  |
 | Doctrinal Documents | French Confession of Faith |  | 1559 | 1 | 1 | missing_author |
@@ -404,7 +405,9 @@ This catalog counts the public inventory by recognized title-level work units. E
 | Doctrinal Documents | Helvetic Consensus | Johann Heidegger | 1675 | 1 | 1 |  |
 | Doctrinal Documents | Ignatius' Creed | Ignatius of Antioch | 110 | 1 | 1 |  |
 | Doctrinal Documents | Irenaeus' Rule of Faith | Irenaeus | 180 | 1 | 1 |  |
+| Doctrinal Documents | NAE Statement of Faith (Current Official Form) | National Association of Evangelicals | 1943 | 1 | 1 |  |
 | Doctrinal Documents | Nicene Creed | First Council of Constantsnople | 381 | 1 | 1 |  |
+| Doctrinal Documents | Research Summary of the Lausanne Seoul Statement (2024): Baptism and the Lord's Supper | Open Christian Data contributors | 2026 | 1 | 1 |  |
 | Doctrinal Documents | Savoy Declaration of Faith |  | 1658 | 1 | 1 | missing_author |
 | Doctrinal Documents | Scots Confession | John Winram | 1560 | 1 | 1 |  |
 | Doctrinal Documents | Second Helvetic Confession | Heinrich Bullinger | 1562 | 1 | 1 |  |

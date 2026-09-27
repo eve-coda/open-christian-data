@@ -1,0 +1,49 @@
+{
+  "id": "nae-statement-of-faith-current",
+  "title": "NAE Statement of Faith (Current Official Form)",
+  "author": "National Association of Evangelicals",
+  "original_publication_year": 1943,
+  "tradition": [
+    "evangelical",
+    "free-church"
+  ],
+  "tradition_notes": "A seven-point statement in the NAE's current official web form. The organization first adopted a Statement of Faith in 1943; this record does not assert that the current wording is textually identical to the 1943 form.",
+  "license": "public-domain",
+  "completeness": "full",
+  "source": {
+    "name": "National Association of Evangelicals",
+    "url": "https://www.nae.org/statement-of-faith/",
+    "format": "HTML",
+    "edition": "Current official English HTML snapshot captured 2026-09-27; first adopted in 1943, without a claim of textual identity with the 1943 form",
+    "license": "Uncopyrighted with required attribution",
+    "license_notes": "NAE states that it intentionally has not copyrighted the Statement of Faith so it may be used widely. Online reproductions must include: As adopted by the National Association of Evangelicals.",
+    "download_date": "2026-09-27",
+    "source_hash": "sha256:fc249d8e8bfcba677337a4860d83bdf472c29fd7682b337d47f9eeca4e646f8e"
+  },
+  "processing": {
+    "method": "automated-with-review",
+    "date": "2026-09-27",
+    "notes": "Parsed verbatim from the seven belief paragraphs in the current official web form captured on 2026-09-27; no textual identity with the 1943 form is claimed. Required attribution: As adopted by the National Association of Evangelicals. The attribution is preserved here rather than as an eighth doctrinal article."
+  },
+  "schema_type": "doctrinal_document",
+  "document_kind": "declaration",
+  "output_file": "data/doctrinal-documents/nae-statement-of-faith-current.json",
+  "raw_file": "raw/nae.org/nae-statement-of-faith.html",
+  "parser": "build/parsers/modern_evangelical_statements.py",
+  "stats": {
+    "unit_count": 7
+  },
+  "revision_history": [
+    {
+      "year": 1943,
+      "body": "National Association of Evangelicals",
+      "description": "The NAE first adopted a Statement of Faith in 1943."
+    },
+    {
+      "year": 2026,
+      "body": "National Association of Evangelicals",
+      "description": "Current official web form captured on 2026-09-27; this record does not claim that the captured wording is textually identical to the statement as adopted in 1943."
+    }
+  ],
+  "required_attribution": "As adopted by the National Association of Evangelicals."
+}
